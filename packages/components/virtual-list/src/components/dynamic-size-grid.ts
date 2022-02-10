@@ -1,5 +1,5 @@
 import { isFunction } from '@vue/shared'
-import { throwError } from '@element-plus/utils-v2'
+import { throwError } from '@park-ui/utils-v2'
 import createGrid from '../builders/build-grid'
 
 import {

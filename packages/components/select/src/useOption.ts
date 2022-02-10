@@ -1,5 +1,5 @@
 import { inject, computed, getCurrentInstance, watch, toRaw, unref } from 'vue'
-import { getValueByPath, escapeRegexpString } from '@element-plus/utils/util'
+import { getValueByPath, escapeRegexpString } from '@park-ui/utils/util'
 import { selectKey, selectGroupKey } from './token'
 
 import type { Ref } from 'vue'

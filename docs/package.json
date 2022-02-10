@@ -15,6 +15,7 @@
     "axios": "0.25.0",
     "clipboard-copy": "4.0.1",
     "element-plus": "npm:element-plus@latest",
+    "park-ui": "npm:park-ui@latest",
     "normalize.css": "8.0.1",
     "nprogress": "0.2.0"
   },

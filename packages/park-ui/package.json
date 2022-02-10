@@ -1,10 +1,10 @@
 {
-  "name": "element-plus",
+  "name": "park-ui",
   "version": "0.0.0-dev.1",
   "description": "A Component Library for Vue 3",
-  "homepage": "https://element-plus.org/",
+  "homepage": "https://park-ui.org/",
   "keywords": [
-    "element-plus",
+    "park-ui",
     "element",
     "component library",
     "ui framework",
@@ -39,10 +39,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/element-plus/element-plus.git"
+    "url": "git+https://github.com/park-ui/park-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/element-plus/element-plus/issues"
+    "url": "https://github.com/park-ui/park-ui/issues"
   },
   "peerDependencies": {
     "vue": "^3.2.0"

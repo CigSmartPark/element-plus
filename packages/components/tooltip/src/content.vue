@@ -41,10 +41,10 @@
 <script lang="ts">
 import { computed, defineComponent, inject, ref, unref, watch } from 'vue'
 import { onClickOutside } from '@vueuse/core'
-import { ElPopperContent } from '@element-plus/components/popper'
-import { ElVisuallyHidden } from '@element-plus/components/visual-hidden'
-import { composeEventHandlers } from '@element-plus/utils/dom'
-import { useEscapeKeydown } from '@element-plus/hooks'
+import { ElPopperContent } from '@park-ui/components/popper'
+import { ElVisuallyHidden } from '@park-ui/components/visual-hidden'
+import { composeEventHandlers } from '@park-ui/utils/dom'
+import { useEscapeKeydown } from '@park-ui/hooks'
 
 import { useTooltipContentProps } from './tooltip'
 import { TOOLTIP_INJECTION_KEY } from './tokens'

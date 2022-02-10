@@ -57,8 +57,8 @@ import {
   reactive,
   watch,
 } from 'vue'
-import { ElIcon } from '@element-plus/components/icon'
 import { Close, Check } from '@element-plus/icons-vue'
+import { ElIcon } from '@park-ui/components/icon'
 
 import type { Ref, PropType, Component } from 'vue'
 

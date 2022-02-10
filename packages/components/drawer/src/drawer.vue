@@ -60,11 +60,11 @@
 import { defineComponent, computed, ref } from 'vue'
 import { Close } from '@element-plus/icons-vue'
 
-import { ElOverlay } from '@element-plus/components/overlay'
-import { useDialog } from '@element-plus/components/dialog'
-import ElIcon from '@element-plus/components/icon'
-import { TrapFocus } from '@element-plus/directives'
-import { useNamespace } from '@element-plus/hooks'
+import { ElOverlay } from '@park-ui/components/overlay'
+import { useDialog } from '@park-ui/components/dialog'
+import ElIcon from '@park-ui/components/icon'
+import { TrapFocus } from '@park-ui/directives'
+import { useNamespace } from '@park-ui/hooks'
 import { drawerProps, drawerEmits } from './drawer'
 
 export default defineComponent({

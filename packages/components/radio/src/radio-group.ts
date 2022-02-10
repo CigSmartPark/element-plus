@@ -1,5 +1,5 @@
-import { buildProps } from '@element-plus/utils-v2'
-import { useSizeProp } from '@element-plus/hooks'
+import { buildProps } from '@park-ui/utils-v2'
+import { useSizeProp } from '@park-ui/hooks'
 import { radioEmits } from './radio'
 import type { ExtractPropTypes } from '@vue/runtime-core'
 

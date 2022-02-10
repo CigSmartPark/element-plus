@@ -4,9 +4,9 @@ import {
   definePropType,
   iconPropType,
   mutable,
-} from '@element-plus/utils-v2'
-import { UPDATE_MODEL_EVENT } from '@element-plus/constants'
-import { useSizeProp } from '@element-plus/hooks'
+} from '@park-ui/utils-v2'
+import { UPDATE_MODEL_EVENT } from '@park-ui/constants'
+import { useSizeProp } from '@park-ui/hooks'
 import type { StyleValue, ExtractPropTypes } from 'vue'
 
 type AutoSize = { minRows?: number; maxRows?: number } | boolean

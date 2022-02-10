@@ -30,10 +30,10 @@
 
 <script lang="ts">
 import { computed, defineComponent } from 'vue'
-import ElIcon from '@element-plus/components/icon'
 import { Close } from '@element-plus/icons-vue'
+import ElIcon from '@park-ui/components/icon'
 
-import { useSize, useNamespace } from '@element-plus/hooks'
+import { useSize, useNamespace } from '@park-ui/hooks'
 import { tagProps, tagEmits } from './tag'
 
 export default defineComponent({

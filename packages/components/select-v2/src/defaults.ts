@@ -1,11 +1,11 @@
-import { isValidComponentSize } from '@element-plus/utils-v2'
-import { useTooltipContentProps } from '@element-plus/components/tooltip'
 import { CircleClose } from '@element-plus/icons-vue'
+import { isValidComponentSize } from '@park-ui/utils-v2'
+import { useTooltipContentProps } from '@park-ui/components/tooltip'
 
 import type { PropType, Component } from 'vue'
-import type { ComponentSize } from '@element-plus/constants'
+import type { ComponentSize } from '@park-ui/constants'
 import type { OptionType } from './select.types'
-import type { Options } from '@element-plus/components/popper'
+import type { Options } from '@park-ui/components/popper'
 
 export const SelectProps = {
   allowCreate: Boolean,

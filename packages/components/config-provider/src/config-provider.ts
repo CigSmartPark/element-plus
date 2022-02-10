@@ -1,9 +1,9 @@
 import { defineComponent, renderSlot, watch } from 'vue'
-import { buildProps, definePropType } from '@element-plus/utils-v2'
-import { provideGlobalConfig } from '@element-plus/hooks'
-import type { Language } from '@element-plus/locale'
-import type { ButtonConfigContext } from '@element-plus/components/button'
-import type { MessageConfigContext } from '@element-plus/components/message'
+import { buildProps, definePropType } from '@park-ui/utils-v2'
+import { provideGlobalConfig } from '@park-ui/hooks'
+import type { Language } from '@park-ui/locale'
+import type { ButtonConfigContext } from '@park-ui/components/button'
+import type { MessageConfigContext } from '@park-ui/components/message'
 
 export const messageConfig: MessageConfigContext = {}
 

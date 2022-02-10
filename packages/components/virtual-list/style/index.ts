@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/virtual-list.scss'
-import '@element-plus/components/scrollbar/style/index'
+import '@park-ui/components/base/style'
+import '@park-ui/theme-chalk/src/virtual-list.scss'
+import '@park-ui/components/scrollbar/style/index'

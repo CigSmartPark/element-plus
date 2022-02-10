@@ -1,7 +1,7 @@
 import { h, nextTick, computed } from 'vue'
 import { mount } from '@vue/test-utils'
-import Chinese from '@element-plus/locale/lang/zh-cn'
-import English from '@element-plus/locale/lang/en'
+import Chinese from '@park-ui/locale/lang/zh-cn'
+import English from '@park-ui/locale/lang/en'
 import { useLocale, buildTranslator } from '../use-locale'
 import { provideGlobalConfig } from '..'
 

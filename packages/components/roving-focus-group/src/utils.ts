@@ -1,4 +1,4 @@
-import { EVENT_CODE } from '@element-plus/utils/aria'
+import { EVENT_CODE } from '@park-ui/utils/aria'
 import type { HTMLAttributes } from 'vue'
 
 type Orientation = HTMLAttributes['aria-orientation']

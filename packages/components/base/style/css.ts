@@ -1,1 +1,1 @@
-import '@element-plus/theme-chalk/base.css'
+import '@park-ui/theme-chalk/base.css'

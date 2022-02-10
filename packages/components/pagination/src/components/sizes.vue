@@ -20,12 +20,12 @@
 <script lang="ts">
 import { defineComponent, watch, computed, ref } from 'vue'
 import { isEqual } from 'lodash-unified'
-import { ElSelect, ElOption } from '@element-plus/components/select'
-import { useLocale } from '@element-plus/hooks'
-import { buildProps, definePropType, mutable } from '@element-plus/utils-v2'
+import { ElSelect, ElOption } from '@park-ui/components/select'
+import { useLocale } from '@park-ui/hooks'
+import { buildProps, definePropType, mutable } from '@park-ui/utils-v2'
 import { usePagination } from '../usePagination'
 
-import type { Nullable } from '@element-plus/utils/types'
+import type { Nullable } from '@park-ui/utils/types'
 
 const paginationSizesProps = buildProps({
   pageSize: {

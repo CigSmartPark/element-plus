@@ -6,8 +6,8 @@
 
 <script lang="ts">
 import { defineComponent, ref, watch, provide } from 'vue'
-import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '@element-plus/constants'
-import { useNamespace } from '@element-plus/hooks'
+import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '@park-ui/constants'
+import { useNamespace } from '@park-ui/hooks'
 import type { CollapseProvider } from './collapse.type'
 
 export default defineComponent({

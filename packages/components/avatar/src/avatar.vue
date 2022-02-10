@@ -17,9 +17,9 @@
 
 <script lang="ts">
 import { defineComponent, computed, ref, watch } from 'vue'
-import { ElIcon } from '@element-plus/components/icon'
-import { useNamespace } from '@element-plus/hooks'
-import { isNumber, isString, addUnit } from '@element-plus/utils-v2'
+import { ElIcon } from '@park-ui/components/icon'
+import { useNamespace } from '@park-ui/hooks'
+import { isNumber, isString, addUnit } from '@park-ui/utils-v2'
 import { avatarEmits, avatarProps } from './avatar'
 
 import type { CSSProperties } from 'vue'

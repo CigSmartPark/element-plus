@@ -11,9 +11,9 @@ import {
   unref,
 } from 'vue'
 import { isClient } from '@vueuse/core'
-import { BAR_MAP } from '@element-plus/components/scrollbar'
-import { on, off } from '@element-plus/utils/dom'
-import { rAF, cAF } from '@element-plus/utils/raf'
+import { BAR_MAP } from '@park-ui/components/scrollbar'
+import { on, off } from '@park-ui/utils/dom'
+import { rAF, cAF } from '@park-ui/utils/raf'
 
 import { SCROLLBAR_MIN_SIZE, HORIZONTAL, ScrollbarDirKey } from '../defaults'
 import { virtualizedScrollbarProps } from '../props'

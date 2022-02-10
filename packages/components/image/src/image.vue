@@ -38,9 +38,9 @@
 import { defineComponent, computed, ref, onMounted, watch, nextTick } from 'vue'
 import { isString } from '@vue/shared'
 import { useEventListener, useThrottleFn, isClient } from '@vueuse/core'
-import { useAttrs, useLocale, useNamespace } from '@element-plus/hooks'
-import ImageViewer from '@element-plus/components/image-viewer'
-import { getScrollContainer, isInContainer } from '@element-plus/utils/dom'
+import { useAttrs, useLocale, useNamespace } from '@park-ui/hooks'
+import ImageViewer from '@park-ui/components/image-viewer'
+import { getScrollContainer, isInContainer } from '@park-ui/utils/dom'
 import { imageEmits, imageProps } from './image'
 
 import type { CSSProperties, StyleValue } from 'vue'

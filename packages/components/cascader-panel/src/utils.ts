@@ -1,4 +1,4 @@
-import { isLeaf } from '@element-plus/utils/aria'
+import { isLeaf } from '@park-ui/utils/aria'
 import type { default as CascaderNode } from './node'
 
 export const getMenuIndex = (el: HTMLElement) => {

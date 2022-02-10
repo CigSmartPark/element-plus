@@ -8,7 +8,7 @@
 
 <script lang="ts">
 import { computed, defineComponent, ref } from 'vue'
-import { useNamespace } from '@element-plus/hooks'
+import { useNamespace } from '@park-ui/hooks'
 import { elTeleportProps } from './teleport'
 
 export default defineComponent({

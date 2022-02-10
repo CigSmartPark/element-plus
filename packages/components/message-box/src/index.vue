@@ -137,8 +137,8 @@ import {
   ref,
   toRefs,
 } from 'vue'
-import ElButton from '@element-plus/components/button'
-import { TrapFocus } from '@element-plus/directives'
+import ElButton from '@park-ui/components/button'
+import { TrapFocus } from '@park-ui/directives'
 import {
   useModal,
   useLockscreen,
@@ -149,20 +149,20 @@ import {
   useDraggable,
   useSameTarget,
   useZIndex,
-} from '@element-plus/hooks'
-import ElInput from '@element-plus/components/input'
-import { ElOverlay } from '@element-plus/components/overlay'
-import { on, off } from '@element-plus/utils/dom'
-import { EVENT_CODE } from '@element-plus/utils/aria'
+} from '@park-ui/hooks'
+import ElInput from '@park-ui/components/input'
+import { ElOverlay } from '@park-ui/components/overlay'
+import { on, off } from '@park-ui/utils/dom'
+import { EVENT_CODE } from '@park-ui/utils/aria'
 import {
   isValidComponentSize,
   TypeComponents,
   TypeComponentsMap,
-} from '@element-plus/utils-v2'
-import { ElIcon } from '@element-plus/components/icon'
+} from '@park-ui/utils-v2'
+import { ElIcon } from '@park-ui/components/icon'
 
 import type { PropType } from 'vue'
-import type { ComponentSize } from '@element-plus/utils/types'
+import type { ComponentSize } from '@park-ui/utils/types'
 import type {
   Action,
   MessageBoxState,

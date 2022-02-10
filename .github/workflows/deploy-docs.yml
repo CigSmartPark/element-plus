@@ -41,7 +41,7 @@ jobs:
         run: pnpm docs:gen-locale
 
       - name: Install latest Element Plus
-        run: cd docs && pnpm i element-plus@latest
+        run: cd docs && pnpm i park-ui@latest
 
       - name: Build website
         run: pnpm docs:build
@@ -55,7 +55,7 @@ jobs:
           branch: gh-pages
           folder: docs/.vitepress/dist
           git-config-name: ElementPlusBot
-          git-config-email: hello@element-plus.org
+          git-config-email: hello@park-ui.org
           commit-message: website deploy
 
       - name: Sync

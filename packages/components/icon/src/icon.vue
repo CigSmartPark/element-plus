@@ -6,8 +6,8 @@
 
 <script lang="ts">
 import { defineComponent, computed } from 'vue'
-import { isUndefined, addUnit } from '@element-plus/utils-v2'
-import { useNamespace } from '@element-plus/hooks'
+import { isUndefined, addUnit } from '@park-ui/utils-v2'
+import { useNamespace } from '@park-ui/hooks'
 import { iconProps } from './icon'
 
 import type { CSSProperties } from 'vue'

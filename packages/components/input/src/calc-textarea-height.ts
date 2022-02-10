@@ -1,4 +1,4 @@
-import { isNumber } from '@element-plus/utils-v2'
+import { isNumber } from '@park-ui/utils-v2'
 
 let hiddenTextarea: HTMLTextAreaElement | undefined = undefined
 

@@ -14,19 +14,19 @@ import {
   useDocumentVisibility,
   useWindowFocus,
 } from '@vueuse/core'
+import { ArrowLeft, ArrowRight, Close } from '@element-plus/icons-vue'
 import {
   buildProps,
   definePropType,
   mutable,
   throwError,
-} from '@element-plus/utils-v2'
-import { EVENT_CODE } from '@element-plus/utils/aria'
-import { ElIcon } from '@element-plus/components/icon'
-import { ArrowLeft, ArrowRight, Close } from '@element-plus/icons-vue'
-import { tabsRootContextKey } from '@element-plus/tokens'
+} from '@park-ui/utils-v2'
+import { EVENT_CODE } from '@park-ui/utils/aria'
+import { ElIcon } from '@park-ui/components/icon'
+import { tabsRootContextKey } from '@park-ui/tokens'
 import TabBar from './tab-bar.vue'
 import type { ExtractPropTypes, CSSProperties } from 'vue'
-import type { TabsPaneContext } from '@element-plus/tokens'
+import type { TabsPaneContext } from '@park-ui/tokens'
 export interface Scrollable {
   next?: boolean
   prev?: number

@@ -14,18 +14,18 @@ import {
   toRefs,
   watch,
 } from 'vue'
-import { elFormKey } from '@element-plus/tokens'
-import { debugWarn } from '@element-plus/utils-v2'
-import { useSize } from '@element-plus/hooks'
+import { elFormKey } from '@park-ui/tokens'
+import { debugWarn } from '@park-ui/utils-v2'
+import { useSize } from '@park-ui/hooks'
 import type { ValidateFieldsError } from 'async-validator'
 
 import type { PropType } from 'vue'
-import type { ComponentSize } from '@element-plus/constants'
+import type { ComponentSize } from '@park-ui/constants'
 import type { FormRulesMap } from './form.type'
 import type {
   ElFormItemContext as FormItemCtx,
   ValidateFieldCallback,
-} from '@element-plus/tokens'
+} from '@park-ui/tokens'
 
 function useFormLabelWidth() {
   const potentialLabelWidthArr = ref([])

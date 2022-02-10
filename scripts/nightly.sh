@@ -1,1 +1,1 @@
-sed -i 's/"name": "element-plus",/"name": "@element-plus\/nightly",/' packages/element-plus/package.json
+sed -i 's/"name": "park-ui",/"name": "@park-ui\/nightly",/' packages/park-ui/package.json

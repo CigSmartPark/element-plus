@@ -18,7 +18,7 @@ cyan(
   ['NOTICE:', `$TAG_VERSION: ${tagVersion}`, `$GIT_HEAD: ${gitHead}`].join('\n')
 )
 ;(async () => {
-  yellow(`Updating package.json for element-plus`)
+  yellow(`Updating package.json for park-ui`)
 
   const json: Record<string, any> = getPackageManifest(epPackage)
 

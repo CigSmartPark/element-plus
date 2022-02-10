@@ -1,4 +1,4 @@
-import { throwError } from '@element-plus/utils-v2'
+import { throwError } from '@park-ui/utils-v2'
 
 import createList from '../builders/build-list'
 

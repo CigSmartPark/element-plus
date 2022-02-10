@@ -64,12 +64,12 @@ import {
   toRefs,
   watch,
 } from 'vue'
-import ElButton from '@element-plus/components/button'
-import ElIcon from '@element-plus/components/icon'
-import { elFormItemKey } from '@element-plus/tokens'
-import { useLocale } from '@element-plus/hooks'
-import { UPDATE_MODEL_EVENT } from '@element-plus/constants'
 import { ArrowLeft, ArrowRight } from '@element-plus/icons-vue'
+import ElButton from '@park-ui/components/button'
+import ElIcon from '@park-ui/components/icon'
+import { elFormItemKey } from '@park-ui/tokens'
+import { useLocale } from '@park-ui/hooks'
+import { UPDATE_MODEL_EVENT } from '@park-ui/constants'
 import TransferPanel from './transfer-panel.vue'
 import { useComputedData } from './useComputedData'
 import {
@@ -81,7 +81,7 @@ import { useMove } from './useMove'
 import { CHANGE_EVENT } from './transfer'
 
 import type { PropType, VNode } from 'vue'
-import type { ElFormItemContext } from '@element-plus/tokens'
+import type { ElFormItemContext } from '@park-ui/tokens'
 import type { DataItem, Format, Key, Props, TargetOrder } from './transfer'
 
 type TransferType = InstanceType<typeof TransferPanel>

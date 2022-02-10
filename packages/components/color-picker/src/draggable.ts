@@ -1,5 +1,5 @@
 import { isClient } from '@vueuse/core'
-import { on, off } from '@element-plus/utils/dom'
+import { on, off } from '@park-ui/utils/dom'
 
 let isDragging = false
 

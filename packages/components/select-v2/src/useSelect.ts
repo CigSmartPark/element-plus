@@ -9,23 +9,23 @@ import {
 } from 'vue'
 import { isArray, isFunction, isObject } from '@vue/shared'
 import { isEqual, debounce as lodashDebounce } from 'lodash-unified'
-import { useFormItem, useLocale, useSize } from '@element-plus/hooks'
-import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '@element-plus/constants'
-import { ValidateComponentsMap } from '@element-plus/utils-v2'
+import { ArrowUp } from '@element-plus/icons-vue'
+import { useFormItem, useLocale, useSize } from '@park-ui/hooks'
+import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '@park-ui/constants'
+import { ValidateComponentsMap } from '@park-ui/utils-v2'
 import {
   addResizeListener,
   removeResizeListener,
-} from '@element-plus/utils/resize-event'
-import { getValueByPath } from '@element-plus/utils/util'
-import { useDeprecateAppendToBody } from '@element-plus/components/popper'
+} from '@park-ui/utils/resize-event'
+import { getValueByPath } from '@park-ui/utils/util'
+import { useDeprecateAppendToBody } from '@park-ui/components/popper'
 
-import { ArrowUp } from '@element-plus/icons-vue'
 import { useAllowCreate } from './useAllowCreate'
 
 import { flattenOptions } from './util'
 
 import { useInput } from './useInput'
-import type ElTooltip from '@element-plus/components/tooltip'
+import type ElTooltip from '@park-ui/components/tooltip'
 import type { SelectProps } from './defaults'
 import type { ExtractPropTypes, CSSProperties } from 'vue'
 import type { OptionType, Option } from './select.types'

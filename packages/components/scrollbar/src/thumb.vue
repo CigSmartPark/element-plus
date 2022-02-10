@@ -26,9 +26,9 @@ import {
   toRef,
 } from 'vue'
 import { useEventListener, isClient } from '@vueuse/core'
-import { scrollbarContextKey } from '@element-plus/tokens'
-import { throwError } from '@element-plus/utils-v2'
-import { useNamespace } from '@element-plus/hooks'
+import { scrollbarContextKey } from '@park-ui/tokens'
+import { throwError } from '@park-ui/utils-v2'
+import { useNamespace } from '@park-ui/hooks'
 import { BAR_MAP, renderThumbStyle } from './util'
 
 import { thumbProps } from './thumb'

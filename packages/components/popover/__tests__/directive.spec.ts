@@ -1,6 +1,6 @@
 import { nextTick, ref } from 'vue'
-import makeMount from '@element-plus/test-utils/make-mount'
-import { rAF } from '@element-plus/test-utils/tick'
+import makeMount from '@park-ui/test-utils/make-mount'
+import { rAF } from '@park-ui/test-utils/tick'
 import Popover from '../src/index.vue'
 import PopoverDirective, { VPopover } from '../src/directive'
 

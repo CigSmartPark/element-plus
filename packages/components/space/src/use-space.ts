@@ -1,10 +1,10 @@
 import { ref, computed, watchEffect } from 'vue'
-import { isNumber } from '@element-plus/utils-v2'
-import { useNamespace } from '@element-plus/hooks'
+import { isNumber } from '@park-ui/utils-v2'
+import { useNamespace } from '@park-ui/hooks'
 import type { SpaceProps } from './space'
 
 import type { CSSProperties, StyleValue } from 'vue'
-import type { ComponentSize } from '@element-plus/constants'
+import type { ComponentSize } from '@park-ui/constants'
 
 const SIZE_MAP: Record<ComponentSize, number> = {
   small: 8,

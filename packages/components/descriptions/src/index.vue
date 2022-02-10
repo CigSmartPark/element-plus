@@ -26,13 +26,13 @@
 
 <script lang="ts">
 import { computed, defineComponent, provide } from 'vue'
-import { isValidComponentSize } from '@element-plus/utils-v2'
-import { useSize, useNamespace } from '@element-plus/hooks'
+import { isValidComponentSize } from '@park-ui/utils-v2'
+import { useSize, useNamespace } from '@park-ui/hooks'
 import DescriptionsRow from './descriptions-row.vue'
 import { elDescriptionsKey } from './token'
 
 import type { PropType } from 'vue'
-import type { ComponentSize } from '@element-plus/constants'
+import type { ComponentSize } from '@park-ui/constants'
 
 export default defineComponent({
   name: 'ElDescriptions',

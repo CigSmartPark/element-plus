@@ -1,14 +1,9 @@
 import { watch, isRef, onScopeDispose } from 'vue'
 
 import { isClient } from '@vueuse/core'
-import getScrollBarWidth from '@element-plus/utils/scrollbar-width'
-import { throwError } from '@element-plus/utils-v2'
-import {
-  addClass,
-  removeClass,
-  hasClass,
-  getStyle,
-} from '@element-plus/utils/dom'
+import getScrollBarWidth from '@park-ui/utils/scrollbar-width'
+import { throwError } from '@park-ui/utils-v2'
+import { addClass, removeClass, hasClass, getStyle } from '@park-ui/utils/dom'
 
 import type { Ref } from 'vue'
 

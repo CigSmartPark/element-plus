@@ -271,7 +271,7 @@ _2021-12-31_
 
 #### Breaking changes:
 
-- Please refer to: [1.3.0-beta.1 Breaking change](https://github.com/element-plus/element-plus/discussions/5037)
+- Please refer to: [1.3.0-beta.1 Breaking change](https://github.com/park-ui/park-ui/discussions/5037)
 
 #### Features
 
@@ -359,7 +359,7 @@ _2021-12-10_
 - Hooks [lockscreen] body lock remove unexpected (#4693 by @KawaiiZapic) (#4694)
 - Docs fix code not working in Codepen (#4678 by @imguolao) (#4679)
 - Components [el-input-number]set value equal to min will update (#4650 by @Alanscut)
-- Docs replace @element-plus/icons with @element-plus/icons-vue (#4704 by @pdsuwwz)
+- Docs replace @park-ui/icons with @element-plus/icons-vue (#4704 by @pdsuwwz)
 - Docs fix webpack config import syntax (#4718 by @owenvip)
 - Style override el-icon display in el-input__icon (#4684 by @YunYouJun)
 - Components [el-menu] third-party icons are hidden (#4754 by @Alanscut)
@@ -529,7 +529,7 @@ _2021-10-30_
 
 #### Breaking changes:
 
-- Please refer to: [1.2.0-beta.1 Breaking change](https://github.com/element-plus/element-plus/discussions/4060)
+- Please refer to: [1.2.0-beta.1 Breaking change](https://github.com/park-ui/park-ui/discussions/4060)
 
 #### Features
 
@@ -544,7 +544,7 @@ _2021-10-30_
 - Components [el-message] & [el-notification] appendTo option added (#4012 by @codespikex)
 - Add translation for Bengali language (#3972 by @IbrahimAlKhalil)
 - Dev play add unplugin-vue-components (#3931 by @sxzz)
-- Dev play add @element-plus/icons (#4034 by @xiaoxian521)
+- Dev play add @park-ui/icons (#4034 by @xiaoxian521)
 
 #### Bug fixes
 
@@ -1084,7 +1084,7 @@ _2021-08-24_
 
 #### Breaking changes:
 
-- Please refer to: [Breaking changes made in 1.1.0-beta.1](https://github.com/element-plus/element-plus/discussions/3020)
+- Please refer to: [Breaking changes made in 1.1.0-beta.1](https://github.com/park-ui/park-ui/discussions/3020)
 
 #### Features
 

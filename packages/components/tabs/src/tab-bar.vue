@@ -16,8 +16,8 @@ import {
 } from 'vue'
 import { capitalize } from '@vue/shared'
 import { useResizeObserver } from '@vueuse/core'
-import { tabsRootContextKey } from '@element-plus/tokens'
-import { throwError } from '@element-plus/utils-v2'
+import { tabsRootContextKey } from '@park-ui/tokens'
+import { throwError } from '@park-ui/utils-v2'
 import { tabBar } from './tab-bar'
 
 import type { CSSProperties } from 'vue'

@@ -44,16 +44,16 @@
 <script lang="ts">
 import { defineComponent, inject, computed, ref, watch } from 'vue'
 import { isObject, isArray } from '@vue/shared'
-import { elFormKey } from '@element-plus/tokens'
-import { hasClass } from '@element-plus/utils/dom'
-import { EVENT_CODE } from '@element-plus/utils/aria'
-
-import { UPDATE_MODEL_EVENT } from '@element-plus/constants'
-import { ElIcon } from '@element-plus/components/icon'
 import { StarFilled, Star } from '@element-plus/icons-vue'
-import { useNamespace, useSize } from '@element-plus/hooks'
+import { elFormKey } from '@park-ui/tokens'
+import { hasClass } from '@park-ui/utils/dom'
+import { EVENT_CODE } from '@park-ui/utils/aria'
+
+import { UPDATE_MODEL_EVENT } from '@park-ui/constants'
+import { ElIcon } from '@park-ui/components/icon'
+import { useNamespace, useSize } from '@park-ui/hooks'
 import { rateProps, rateEmits } from './rate'
-import type { ElFormContext } from '@element-plus/tokens'
+import type { ElFormContext } from '@park-ui/tokens'
 
 function getValueFromMap<T>(
   value: number,
@@ -240,7 +240,7 @@ export default defineComponent({
         return
       }
       if (props.allowHalf) {
-        // TODO: use cache via computed https://github.com/element-plus/element-plus/pull/5456#discussion_r786472092
+        // TODO: use cache via computed https://github.com/park-ui/park-ui/pull/5456#discussion_r786472092
         let target = event.target as HTMLElement
         if (hasClass(target, ns.e('item'))) {
           target = target.querySelector(`.${ns.e('icon')}`)!

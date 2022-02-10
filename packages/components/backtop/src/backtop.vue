@@ -19,11 +19,11 @@
 <script lang="ts">
 import { defineComponent, ref, computed, onMounted, shallowRef } from 'vue'
 import { useEventListener, useThrottleFn } from '@vueuse/core'
-import { ElIcon } from '@element-plus/components/icon'
-import { easeInOutCubic } from '@element-plus/utils/animation'
-import { throwError } from '@element-plus/utils-v2'
 import { CaretTop } from '@element-plus/icons-vue'
-import { useNamespace } from '@element-plus/hooks'
+import { ElIcon } from '@park-ui/components/icon'
+import { easeInOutCubic } from '@park-ui/utils/animation'
+import { throwError } from '@park-ui/utils-v2'
+import { useNamespace } from '@park-ui/hooks'
 
 import { backtopEmits, backtopProps } from './backtop'
 

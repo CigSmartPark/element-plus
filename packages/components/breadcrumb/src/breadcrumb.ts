@@ -1,4 +1,4 @@
-import { buildProps, iconPropType } from '@element-plus/utils-v2'
+import { buildProps, iconPropType } from '@park-ui/utils-v2'
 import type { ExtractPropTypes } from 'vue'
 import type Breadcrumb from './breadcrumb.vue'
 

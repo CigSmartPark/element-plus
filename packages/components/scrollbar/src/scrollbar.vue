@@ -43,9 +43,9 @@ import {
   reactive,
 } from 'vue'
 import { useResizeObserver, useEventListener } from '@vueuse/core'
-import { isNumber, debugWarn, addUnit } from '@element-plus/utils-v2'
-import { scrollbarContextKey } from '@element-plus/tokens'
-import { useNamespace } from '@element-plus/hooks'
+import { isNumber, debugWarn, addUnit } from '@park-ui/utils-v2'
+import { scrollbarContextKey } from '@park-ui/tokens'
+import { useNamespace } from '@park-ui/hooks'
 import Bar from './bar.vue'
 
 import { scrollbarProps, scrollbarEmits } from './scrollbar'

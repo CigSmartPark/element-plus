@@ -3,7 +3,7 @@ import {
   buildProps,
   definePropType,
   mutable,
-} from '@element-plus/utils-v2'
+} from '@park-ui/utils-v2'
 import { VERTICAL } from './defaults'
 
 import type { ExtractPropTypes, StyleValue } from 'vue'

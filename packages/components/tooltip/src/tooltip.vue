@@ -56,15 +56,15 @@ import {
   ElPopper,
   ElPopperArrow,
   usePopperArrowProps,
-} from '@element-plus/components/popper'
+} from '@park-ui/components/popper'
 
-import { debugWarn, isBoolean, isUndefined } from '@element-plus/utils-v2'
+import { debugWarn, isBoolean, isUndefined } from '@park-ui/utils-v2'
 import {
   usePopperContainer,
   useId,
   createModelToggleComposable,
   useDelayedToggle,
-} from '@element-plus/hooks'
+} from '@park-ui/hooks'
 import ElTooltipContent from './content.vue'
 import ElTooltipTrigger from './trigger.vue'
 import {

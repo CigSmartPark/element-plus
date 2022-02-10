@@ -6,17 +6,17 @@ importers:
     specifiers:
       '@commitlint/cli': 16.1.0
       '@commitlint/config-conventional': 16.0.0
-      '@element-plus/components': workspace:*
-      '@element-plus/constants': workspace:*
-      '@element-plus/directives': workspace:*
-      '@element-plus/hooks': workspace:*
       '@element-plus/icons-vue': ^0.2.6
-      '@element-plus/locale': workspace:*
-      '@element-plus/test-utils': workspace:*
-      '@element-plus/theme-chalk': workspace:*
-      '@element-plus/tokens': workspace:*
-      '@element-plus/utils': workspace:*
-      '@element-plus/utils-v2': workspace:*
+      '@park-ui/components': workspace:*
+      '@park-ui/constants': workspace:*
+      '@park-ui/directives': workspace:*
+      '@park-ui/hooks': workspace:*
+      '@park-ui/locale': workspace:*
+      '@park-ui/test-utils': workspace:*
+      '@park-ui/theme-chalk': workspace:*
+      '@park-ui/tokens': workspace:*
+      '@park-ui/utils': workspace:*
+      '@park-ui/utils-v2': workspace:*
       '@pnpm/find-workspace-packages': 3.1.40
       '@pnpm/logger': 4.0.0
       '@pnpm/types': 7.9.0
@@ -81,17 +81,17 @@ importers:
       vue-router: 4.0.12
       vue-tsc: 0.31.2
     dependencies:
-      '@element-plus/components': link:packages/components
-      '@element-plus/constants': link:packages/constants
-      '@element-plus/directives': link:packages/directives
-      '@element-plus/hooks': link:packages/hooks
       '@element-plus/icons-vue': 0.2.6_vue@3.2.30
-      '@element-plus/locale': link:packages/locale
-      '@element-plus/test-utils': link:packages/test-utils
-      '@element-plus/theme-chalk': link:packages/theme-chalk
-      '@element-plus/tokens': link:packages/tokens
-      '@element-plus/utils': link:packages/utils
-      '@element-plus/utils-v2': link:packages/utils-v2
+      '@park-ui/components': link:packages/components
+      '@park-ui/constants': link:packages/constants
+      '@park-ui/directives': link:packages/directives
+      '@park-ui/hooks': link:packages/hooks
+      '@park-ui/locale': link:packages/locale
+      '@park-ui/test-utils': link:packages/test-utils
+      '@park-ui/theme-chalk': link:packages/theme-chalk
+      '@park-ui/tokens': link:packages/tokens
+      '@park-ui/utils': link:packages/utils
+      '@park-ui/utils-v2': link:packages/utils-v2
       '@popperjs/core': 2.11.2
       '@vueuse/core': 7.6.0_vue@3.2.30
       async-validator: 4.0.7
@@ -176,6 +176,7 @@ importers:
       markdown-it-container: 3.0.0
       normalize.css: 8.0.1
       nprogress: 0.2.0
+      park-ui: npm:park-ui@latest
       unplugin-icons: 0.13.1
       unplugin-vue-components: 0.17.18
       vite: 2.8.0
@@ -191,6 +192,7 @@ importers:
       element-plus: 2.0.1_vue@3.2.30
       normalize.css: 8.0.1
       nprogress: 0.2.0
+      park-ui: 1.1.0-dev.3_vue@3.2.30
     devDependencies:
       '@crowdin/cli': 3.7.7
       '@iconify-json/ri': 1.0.2
@@ -215,7 +217,13 @@ importers:
   packages/directives:
     specifiers: {}
 
-  packages/element-plus:
+  packages/hooks:
+    specifiers: {}
+
+  packages/locale:
+    specifiers: {}
+
+  packages/park-ui:
     specifiers:
       '@ctrl/tinycolor': ^3.4.0
       '@element-plus/icons-vue': ^0.2.6
@@ -235,9 +243,9 @@ importers:
       vue-router: ^4.0.0
     dependencies:
       '@ctrl/tinycolor': 3.4.0
-      '@element-plus/icons-vue': 0.2.6_vue@3.2.30
+      '@element-plus/icons-vue': 0.2.7_vue@3.2.30
       '@popperjs/core': 2.11.2
-      '@vueuse/core': 7.6.0_vue@3.2.30
+      '@vueuse/core': 7.6.1_vue@3.2.30
       async-validator: 4.0.7
       dayjs: 1.10.7
       lodash: 4.17.21
@@ -251,12 +259,6 @@ importers:
       '@types/node': 17.0.16
       csstype: 2.6.19
       vue-router: 4.0.12_vue@3.2.30
-
-  packages/hooks:
-    specifiers: {}
-
-  packages/locale:
-    specifiers: {}
 
   packages/test-utils:
     specifiers: {}
@@ -8522,6 +8524,25 @@ packages:
     dependencies:
       callsites: 3.1.0
     dev: true
+
+  /park-ui/1.1.0-dev.3_vue@3.2.30:
+    resolution: {integrity: sha512-qyYJn7PZd0DrlRjv/oJJzkCRX80o6ukYJrOqDhSRaow7DJHGO/VAeuSuTqgjZgcpGhgnXbXMyWxRnYbHDmhJzg==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@ctrl/tinycolor': 3.4.0
+      '@element-plus/icons-vue': 0.2.7_vue@3.2.30
+      '@popperjs/core': 2.11.2
+      '@vueuse/core': 7.6.1_vue@3.2.30
+      async-validator: 4.0.7
+      dayjs: 1.10.7
+      lodash: 4.17.21
+      memoize-one: 6.0.0
+      normalize-wheel-es: 1.1.1
+      vue: 3.2.30
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+    dev: false
 
   /parse-filepath/1.0.2:
     resolution: {integrity: sha1-pjISf1Oq89FYdvWHLz/6x2PWyJE=}

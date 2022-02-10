@@ -45,14 +45,14 @@
 <script lang="ts">
 import { defineComponent, computed, ref, onMounted, watch } from 'vue'
 import { useEventListener, useTimeoutFn } from '@vueuse/core'
-import { EVENT_CODE } from '@element-plus/utils/aria'
-import ElBadge from '@element-plus/components/badge'
-import { ElIcon } from '@element-plus/components/icon'
-import { TypeComponents, TypeComponentsMap } from '@element-plus/utils-v2'
+import { EVENT_CODE } from '@park-ui/utils/aria'
+import ElBadge from '@park-ui/components/badge'
+import { ElIcon } from '@park-ui/components/icon'
+import { TypeComponents, TypeComponentsMap } from '@park-ui/utils-v2'
 
-import { useNamespace } from '@element-plus/hooks'
+import { useNamespace } from '@park-ui/hooks'
 import { messageEmits, messageProps } from './message'
-import type { BadgeProps } from '@element-plus/components/badge'
+import type { BadgeProps } from '@park-ui/components/badge'
 
 import type { CSSProperties } from 'vue'
 

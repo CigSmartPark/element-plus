@@ -28,13 +28,13 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
 import { NOOP } from '@vue/shared'
-import { hasOwn } from '@element-plus/utils-v2'
+import { hasOwn } from '@park-ui/utils-v2'
 
 import ajax from './ajax'
 import UploadDragger from './upload-dragger.vue'
 
 import type { PropType } from 'vue'
-import type { Nullable } from '@element-plus/utils/types'
+import type { Nullable } from '@park-ui/utils/types'
 import type { ListType, UploadFile, ElFile } from './upload.type'
 
 type IFileHanlder = (

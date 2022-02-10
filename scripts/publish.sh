@@ -7,7 +7,7 @@ pnpm update:version
 
 pnpm build
 
-cd dist/element-plus
+cd dist/park-ui
 npm publish --access public
 cd -
 

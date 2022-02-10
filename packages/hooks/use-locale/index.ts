@@ -1,10 +1,10 @@
 import { computed, ref, unref, isRef } from 'vue'
 import { get } from 'lodash-unified'
-import English from '@element-plus/locale/lang/en'
+import English from '@park-ui/locale/lang/en'
 import { useGlobalConfig } from '../use-global-config'
 import type { MaybeRef } from '@vueuse/core'
 import type { Ref } from 'vue'
-import type { Language } from '@element-plus/locale'
+import type { Language } from '@park-ui/locale'
 
 export type TranslatorOption = Record<string, string | number>
 export type Translator = (path: string, option?: TranslatorOption) => string

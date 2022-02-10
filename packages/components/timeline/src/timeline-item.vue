@@ -45,8 +45,8 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { ElIcon } from '@element-plus/components/icon'
-import { useNamespace } from '@element-plus/hooks'
+import { ElIcon } from '@park-ui/components/icon'
+import { useNamespace } from '@park-ui/hooks'
 import { timelineItemProps } from './timeline-item'
 
 export default defineComponent({

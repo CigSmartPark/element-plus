@@ -1,6 +1,6 @@
 import { computed, getCurrentInstance } from 'vue'
-import { useDeprecated } from '@element-plus/hooks'
-import { isBoolean } from '@element-plus/utils-v2'
+import { useDeprecated } from '@park-ui/hooks'
+import { isBoolean } from '@park-ui/utils-v2'
 
 export function useDeprecateAppendToBody(scope: string, from: string) {
   const vm = getCurrentInstance()!
@@ -17,7 +17,7 @@ export function useDeprecateAppendToBody(scope: string, from: string) {
       from,
       replacement: 'teleported',
       version: '2.1.0',
-      ref: 'https://element-plus.org/en-US/component/tooltip.html#attributes',
+      ref: 'https://park-ui.org/en-US/component/tooltip.html#attributes',
     },
     computed(() => isBoolean(vm.props[from]))
   )

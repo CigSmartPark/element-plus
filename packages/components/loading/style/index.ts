@@ -1,2 +1,2 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/loading.scss'
+import '@park-ui/components/base/style'
+import '@park-ui/theme-chalk/src/loading.scss'

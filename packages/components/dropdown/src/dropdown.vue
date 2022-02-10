@@ -83,15 +83,15 @@ import {
   toRef,
   unref,
 } from 'vue'
-import ElButton from '@element-plus/components/button'
-import ElTooltip from '@element-plus/components/tooltip'
-import ElScrollbar from '@element-plus/components/scrollbar'
-import ElIcon from '@element-plus/components/icon'
-import ElFocusTrap from '@element-plus/components/focus-trap'
-import ElRovingFocusGroup from '@element-plus/components/roving-focus-group'
-import { addUnit } from '@element-plus/utils-v2'
 import { ArrowDown } from '@element-plus/icons-vue'
-import { useSize } from '@element-plus/hooks'
+import ElButton from '@park-ui/components/button'
+import ElTooltip from '@park-ui/components/tooltip'
+import ElScrollbar from '@park-ui/components/scrollbar'
+import ElIcon from '@park-ui/components/icon'
+import ElFocusTrap from '@park-ui/components/focus-trap'
+import ElRovingFocusGroup from '@park-ui/components/roving-focus-group'
+import { addUnit } from '@park-ui/utils-v2'
+import { useSize } from '@park-ui/hooks'
 import { ElCollection as ElDropdownCollection, dropdownProps } from './dropdown'
 import { DROPDOWN_INJECTION_KEY } from './tokens'
 

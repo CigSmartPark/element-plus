@@ -1,4 +1,4 @@
-import { TypeComponentsMap, buildProps, keyOf } from '@element-plus/utils-v2'
+import { TypeComponentsMap, buildProps, keyOf } from '@park-ui/utils-v2'
 import type { ExtractPropTypes } from 'vue'
 import type Alert from './alert.vue'
 

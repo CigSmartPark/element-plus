@@ -90,11 +90,6 @@ import {
   markRaw,
 } from 'vue'
 import { useEventListener } from '@vueuse/core'
-import ElIcon from '@element-plus/components/icon'
-import { useLocale, useNamespace } from '@element-plus/hooks'
-import { EVENT_CODE } from '@element-plus/utils/aria'
-import { isFirefox } from '@element-plus/utils-v2'
-import { rafThrottle } from '@element-plus/utils/util'
 import {
   Close,
   ArrowLeft,
@@ -106,6 +101,11 @@ import {
   FullScreen,
   ScaleToOriginal,
 } from '@element-plus/icons-vue'
+import ElIcon from '@park-ui/components/icon'
+import { useLocale, useNamespace } from '@park-ui/hooks'
+import { EVENT_CODE } from '@park-ui/utils/aria'
+import { isFirefox } from '@park-ui/utils-v2'
+import { rafThrottle } from '@park-ui/utils/util'
 import { imageViewerProps, imageViewerEmits } from './image-viewer'
 
 import type { CSSProperties } from 'vue'

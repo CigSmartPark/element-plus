@@ -1,4 +1,4 @@
-import makeMount from '@element-plus/test-utils/make-mount'
+import makeMount from '@park-ui/test-utils/make-mount'
 import Result from '../src/result.vue'
 
 const AXIOM = 'Rem is the best girl'

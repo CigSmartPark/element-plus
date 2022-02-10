@@ -5,7 +5,7 @@
 ## Installation
 
 ```shell
-npm i element-plus
+npm i park-ui
 ```
 
 ## Usage
@@ -13,13 +13,13 @@ npm i element-plus
 Use Sass import
 
 ```css
-@use 'element-plus/lib/theme-chalk/index.scss';
+@use 'park-ui/lib/theme-chalk/index.scss';
 ```
 
 Or Use vite/webpack
 
 ```javascript
-import 'element-plus/lib/theme-chalk/index.css'
+import 'park-ui/lib/theme-chalk/index.css'
 ```
 
 Or
@@ -27,15 +27,15 @@ Or
 ```html
 <link
   rel="stylesheet"
-  href="https://unpkg.com/element-plus/lib/theme-chalk/index.css"
+  href="https://unpkg.com/park-ui/lib/theme-chalk/index.css"
 />
 ```
 
 ## Import on demand
 
 ```javascript
-import 'element-plus/lib/theme-chalk/input.css'
-import 'element-plus/lib/theme-chalk/select.css'
+import 'park-ui/lib/theme-chalk/input.css'
+import 'park-ui/lib/theme-chalk/select.css'
 
 // ...
 ```

@@ -1,6 +1,6 @@
 import { getCurrentInstance, h, ref, computed, watchEffect, unref } from 'vue'
-import { debugWarn } from '@element-plus/utils-v2'
-import { useNamespace } from '@element-plus/hooks'
+import { debugWarn } from '@park-ui/utils-v2'
+import { useNamespace } from '@park-ui/hooks'
 import {
   cellForced,
   defaultRenderCell,

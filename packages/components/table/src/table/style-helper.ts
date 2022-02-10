@@ -11,12 +11,12 @@ import {
 import {
   addResizeListener,
   removeResizeListener,
-} from '@element-plus/utils/resize-event'
-import { on, off } from '@element-plus/utils/dom'
-import { useSize } from '@element-plus/hooks'
+} from '@park-ui/utils/resize-event'
+import { on, off } from '@park-ui/utils/dom'
+import { useSize } from '@park-ui/hooks'
 import { parseHeight } from '../util'
 
-import type { ResizableElement } from '@element-plus/utils/resize-event'
+import type { ResizableElement } from '@park-ui/utils/resize-event'
 import type { Table, TableProps } from './defaults'
 import type { Store } from '../store'
 import type TableLayout from '../table-layout'

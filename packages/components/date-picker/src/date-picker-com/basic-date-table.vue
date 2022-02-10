@@ -35,8 +35,8 @@
 <script lang="ts">
 import { defineComponent, computed, ref } from 'vue'
 import dayjs from 'dayjs'
-import { useLocale } from '@element-plus/hooks'
-import { coerceTruthyValueToArray } from '@element-plus/utils/util'
+import { useLocale } from '@park-ui/hooks'
+import { coerceTruthyValueToArray } from '@park-ui/utils/util'
 import ElDatePickerCell from './basic-cell-render'
 import type { PropType } from 'vue'
 

@@ -46,9 +46,9 @@
 <script lang="ts">
 import { ref, computed, defineComponent } from 'vue'
 import dayjs from 'dayjs'
-import { ElButton, ElButtonGroup } from '@element-plus/components/button'
-import { useLocale, useNamespace } from '@element-plus/hooks'
-import { debugWarn } from '@element-plus/utils-v2'
+import { ElButton, ElButtonGroup } from '@park-ui/components/button'
+import { useLocale, useNamespace } from '@park-ui/hooks'
+import { debugWarn } from '@park-ui/utils-v2'
 import DateTable from './date-table.vue'
 import { calendarProps, calendarEmits } from './calendar'
 
@@ -133,7 +133,7 @@ export default defineComponent({
       }
     })
 
-    // https://github.com/element-plus/element-plus/issues/3155
+    // https://github.com/park-ui/park-ui/issues/3155
     // Calculate the validate date range according to the start and end dates
     const calculateValidatedDateRange = (
       startDayjs: Dayjs,

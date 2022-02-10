@@ -94,7 +94,7 @@ export type BuildPropReturn<T, D, R, V, C> = {
     values: ['small', 'large'],
     validator: (val: unknown): val is number => typeof val === 'number',
   } as const)
-  @link see more: https://github.com/element-plus/element-plus/pull/3341
+  @link see more: https://github.com/park-ui/park-ui/pull/3341
  */
 export function buildProp<
   T = never,

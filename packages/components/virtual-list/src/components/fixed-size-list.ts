@@ -1,4 +1,4 @@
-import { isString, throwError } from '@element-plus/utils-v2'
+import { isString, throwError } from '@park-ui/utils-v2'
 import buildList from '../builders/build-list'
 import { isHorizontal } from '../utils'
 import {

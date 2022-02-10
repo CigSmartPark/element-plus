@@ -89,15 +89,15 @@ import {
   toRefs,
   watch,
 } from 'vue'
-import ElInputNumber from '@element-plus/components/input-number'
+import ElInputNumber from '@park-ui/components/input-number'
 import {
   UPDATE_MODEL_EVENT,
   CHANGE_EVENT,
   INPUT_EVENT,
-} from '@element-plus/constants'
-import { off, on } from '@element-plus/utils/dom'
-import { throwError, isValidComponentSize } from '@element-plus/utils-v2'
-import { useSize } from '@element-plus/hooks'
+} from '@park-ui/constants'
+import { off, on } from '@park-ui/utils/dom'
+import { throwError, isValidComponentSize } from '@park-ui/utils-v2'
+import { useSize } from '@park-ui/hooks'
 import SliderButton from './button.vue'
 import SliderMarker from './marker.vue'
 import { useMarks } from './useMarks'
@@ -105,8 +105,8 @@ import { useSlide } from './useSlide'
 import { useStops } from './useStops'
 
 import type { PropType, Ref } from 'vue'
-import type { ComponentSize } from '@element-plus/constants'
-import type { Nullable } from '@element-plus/utils/types'
+import type { ComponentSize } from '@park-ui/constants'
+import type { Nullable } from '@park-ui/utils/types'
 
 export default defineComponent({
   name: 'ElSlider',

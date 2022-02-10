@@ -91,20 +91,15 @@
 <script lang="ts">
 import { defineComponent, computed, onMounted, ref, nextTick, watch } from 'vue'
 import { isPromise } from '@vue/shared'
-import { isBoolean, throwError, debugWarn } from '@element-plus/utils-v2'
-import ElIcon from '@element-plus/components/icon'
 import { Loading } from '@element-plus/icons-vue'
+import { isBoolean, throwError, debugWarn } from '@park-ui/utils-v2'
+import ElIcon from '@park-ui/components/icon'
 import {
   UPDATE_MODEL_EVENT,
   CHANGE_EVENT,
   INPUT_EVENT,
-} from '@element-plus/constants'
-import {
-  useDisabled,
-  useFormItem,
-  useNamespace,
-  useSize,
-} from '@element-plus/hooks'
+} from '@park-ui/constants'
+import { useDisabled, useFormItem, useNamespace, useSize } from '@park-ui/hooks'
 import { switchProps, switchEmits } from './switch'
 
 const COMPONENT_NAME = 'ElSwitch'

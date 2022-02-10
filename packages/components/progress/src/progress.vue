@@ -77,7 +77,6 @@
 
 <script lang="ts">
 import { computed, defineComponent } from 'vue'
-import { ElIcon } from '@element-plus/components/icon'
 import {
   WarningFilled,
   CircleCheck,
@@ -85,7 +84,8 @@ import {
   Check,
   Close,
 } from '@element-plus/icons-vue'
-import { useNamespace } from '@element-plus/hooks'
+import { ElIcon } from '@park-ui/components/icon'
+import { useNamespace } from '@park-ui/hooks'
 import { progressProps } from './progress'
 import type { CSSProperties } from 'vue'
 

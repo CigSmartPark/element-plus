@@ -24,7 +24,7 @@
 
 <script lang="ts">
 import { defineComponent, computed } from 'vue'
-import { useNamespace, useThrottleRender } from '@element-plus/hooks'
+import { useNamespace, useThrottleRender } from '@park-ui/hooks'
 import SkeletonItem from './skeleton-item.vue'
 import { skeletonProps } from './skeleton'
 

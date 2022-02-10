@@ -1,13 +1,8 @@
 import { ref, computed, inject } from 'vue'
-import {
-  buildProps,
-  isBoolean,
-  isString,
-  isNumber,
-} from '@element-plus/utils-v2'
-import { UPDATE_MODEL_EVENT } from '@element-plus/constants'
-import { radioGroupKey } from '@element-plus/tokens'
-import { useDisabled, useSize, useSizeProp } from '@element-plus/hooks'
+import { buildProps, isBoolean, isString, isNumber } from '@park-ui/utils-v2'
+import { UPDATE_MODEL_EVENT } from '@park-ui/constants'
+import { radioGroupKey } from '@park-ui/tokens'
+import { useDisabled, useSize, useSizeProp } from '@park-ui/hooks'
 import type { ExtractPropTypes, SetupContext } from 'vue'
 
 export const radioPropsBase = buildProps({

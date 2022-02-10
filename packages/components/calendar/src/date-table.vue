@@ -38,8 +38,8 @@
 import { computed, defineComponent } from 'vue'
 import dayjs from 'dayjs'
 import localeData from 'dayjs/plugin/localeData'
-import { useLocale, useNamespace } from '@element-plus/hooks'
-import { rangeArr } from '@element-plus/components/time-picker'
+import { useLocale, useNamespace } from '@park-ui/hooks'
+import { rangeArr } from '@park-ui/components/time-picker'
 import { dateTableProps, dateTableEmits } from './date-table'
 import type { Dayjs } from 'dayjs'
 dayjs.extend(localeData)

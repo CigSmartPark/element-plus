@@ -1,18 +1,18 @@
 import { h, provide } from 'vue'
 import { NOOP } from '@vue/shared'
 import { mount } from '@vue/test-utils'
-import { ElButton } from '@element-plus/components'
+import { ElButton } from '@park-ui/components'
 import {
   elFormKey,
   elFormItemKey,
   buttonGroupContextKey,
-} from '@element-plus/tokens'
+} from '@park-ui/tokens'
 
 import type {
   ElFormContext,
   ElFormItemContext,
   ButtonGroupContext,
-} from '@element-plus/tokens'
+} from '@park-ui/tokens'
 
 const AXIOM = 'Rem is the best girl'
 

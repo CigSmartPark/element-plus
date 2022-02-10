@@ -1,6 +1,6 @@
 import { nextTick } from 'vue'
 import { mount } from '@vue/test-utils'
-import { defineGetter } from '@element-plus/test-utils'
+import { defineGetter } from '@park-ui/test-utils'
 import Tree from '../src/tree.vue'
 import type Node from '../src/model/node'
 

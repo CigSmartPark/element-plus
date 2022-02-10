@@ -221,30 +221,28 @@ import {
   computed,
   unref,
 } from 'vue'
-import { ClickOutside } from '@element-plus/directives'
-import { useFocus, useLocale } from '@element-plus/hooks'
-import ElInput from '@element-plus/components/input'
-import ElTooltip, {
-  useTooltipContentProps,
-} from '@element-plus/components/tooltip'
-import ElScrollbar from '@element-plus/components/scrollbar'
-import ElTag from '@element-plus/components/tag'
-import ElIcon from '@element-plus/components/icon'
-import { useDeprecateAppendToBody } from '@element-plus/components/popper'
-import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '@element-plus/constants'
+import { CircleClose, ArrowUp } from '@element-plus/icons-vue'
+import { ClickOutside } from '@park-ui/directives'
+import { useFocus, useLocale } from '@park-ui/hooks'
+import ElInput from '@park-ui/components/input'
+import ElTooltip, { useTooltipContentProps } from '@park-ui/components/tooltip'
+import ElScrollbar from '@park-ui/components/scrollbar'
+import ElTag from '@park-ui/components/tag'
+import ElIcon from '@park-ui/components/icon'
+import { useDeprecateAppendToBody } from '@park-ui/components/popper'
+import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '@park-ui/constants'
 import {
   addResizeListener,
   removeResizeListener,
-} from '@element-plus/utils/resize-event'
-import { isValidComponentSize } from '@element-plus/utils-v2'
-import { CircleClose, ArrowUp } from '@element-plus/icons-vue'
+} from '@park-ui/utils/resize-event'
+import { isValidComponentSize } from '@park-ui/utils-v2'
 import ElOption from './option.vue'
 import ElSelectMenu from './select-dropdown.vue'
 import { useSelect, useSelectStates } from './useSelect'
 import { selectKey } from './token'
 
 import type { PropType, Component } from 'vue'
-import type { ComponentSize } from '@element-plus/constants'
+import type { ComponentSize } from '@park-ui/constants'
 import type { SelectContext } from './token'
 
 const COMPONENT_NAME = 'ElSelect'

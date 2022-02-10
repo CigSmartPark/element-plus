@@ -1,5 +1,5 @@
-import { buildProps } from '@element-plus/utils-v2'
-import { useTooltipContentProps } from '@element-plus/components/tooltip'
+import { buildProps } from '@park-ui/utils-v2'
+import { useTooltipContentProps } from '@park-ui/components/tooltip'
 
 export const usePopoverProps = {
   appendToBody: { type: Boolean, default: undefined },

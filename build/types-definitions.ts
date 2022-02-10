@@ -24,7 +24,7 @@ export const generateTypesDefinitions = async () => {
       outDir,
       baseUrl: projRoot,
       paths: {
-        '@element-plus/*': ['packages/*'],
+        '@park-ui/*': ['packages/*'],
       },
       preserveSymlinks: true,
     },
@@ -33,7 +33,7 @@ export const generateTypesDefinitions = async () => {
   })
 
   const filePaths = excludeFiles(
-    await glob(['**/*.{js,ts,vue}', '!element-plus/**/*'], {
+    await glob(['**/*.{js,ts,vue}', '!park-ui/**/*'], {
       cwd: pkgRoot,
       absolute: true,
       onlyFiles: true,

@@ -1,6 +1,6 @@
 import { nextTick } from 'vue'
 import { mount } from '@vue/test-utils'
-import { defineGetter, makeScroll } from '@element-plus/test-utils'
+import { defineGetter, makeScroll } from '@park-ui/test-utils'
 import Affix from '../src/affix.vue'
 
 let clientHeightRestore: () => void

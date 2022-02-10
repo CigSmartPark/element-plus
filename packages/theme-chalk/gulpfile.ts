@@ -42,7 +42,7 @@ function buildThemeChalk() {
 }
 
 /**
- * copy from packages/theme-chalk/dist to dist/element-plus/theme-chalk
+ * copy from packages/theme-chalk/dist to dist/park-ui/theme-chalk
  */
 export function copyThemeChalkBundle() {
   return src(`${distFolder}/**`).pipe(dest(distBundle))

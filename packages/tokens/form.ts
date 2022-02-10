@@ -1,6 +1,6 @@
 import type { InjectionKey } from 'vue'
 import type { ValidateFieldsError } from 'async-validator'
-import type { ComponentSize } from '@element-plus/constants'
+import type { ComponentSize } from '@park-ui/constants'
 
 export interface ElFormContext {
   registerLabelWidth(width: number, oldWidth: number): void

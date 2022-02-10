@@ -5,7 +5,7 @@
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useNamespace } from '@element-plus/hooks'
+import { useNamespace } from '@park-ui/hooks'
 import { checkTagProps, checkTagEmits } from './check-tag'
 
 export default defineComponent({

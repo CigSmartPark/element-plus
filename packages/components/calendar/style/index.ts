@@ -1,4 +1,4 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/calendar.scss'
-import '@element-plus/components/button/style/index'
-import '@element-plus/components/button-group/style/index'
+import '@park-ui/components/base/style'
+import '@park-ui/theme-chalk/src/calendar.scss'
+import '@park-ui/components/button/style/index'
+import '@park-ui/components/button-group/style/index'

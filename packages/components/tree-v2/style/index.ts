@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/tree.scss'
-import '@element-plus/components/checkbox/style/index'
+import '@park-ui/components/base/style'
+import '@park-ui/theme-chalk/src/tree.scss'
+import '@park-ui/components/checkbox/style/index'

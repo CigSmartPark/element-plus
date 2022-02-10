@@ -57,10 +57,10 @@
 
 <script lang="ts">
 import { computed, defineComponent, reactive, toRefs } from 'vue'
-import { useLocale } from '@element-plus/hooks'
-import { ElCheckbox, ElCheckboxGroup } from '@element-plus/components/checkbox'
-import ElInput from '@element-plus/components/input'
 import { Search } from '@element-plus/icons-vue'
+import { useLocale } from '@park-ui/hooks'
+import { ElCheckbox, ElCheckboxGroup } from '@park-ui/components/checkbox'
+import ElInput from '@park-ui/components/input'
 import { useCheck, useCheckProps, CHECKED_CHANGE_EVENT } from './useCheck'
 
 export default defineComponent({

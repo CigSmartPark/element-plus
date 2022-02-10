@@ -41,9 +41,9 @@
 </template>
 <script lang="ts">
 import { defineComponent, computed, ref } from 'vue'
-import { ElIcon } from '@element-plus/components/icon'
-import { TypeComponents, TypeComponentsMap } from '@element-plus/utils-v2'
-import { useNamespace } from '@element-plus/hooks'
+import { ElIcon } from '@park-ui/components/icon'
+import { TypeComponents, TypeComponentsMap } from '@park-ui/utils-v2'
+import { useNamespace } from '@park-ui/hooks'
 import { alertProps, alertEmits } from './alert'
 
 export default defineComponent({

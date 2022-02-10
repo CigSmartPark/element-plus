@@ -41,10 +41,10 @@
 <script lang="ts">
 import { defineComponent, computed, ref, onMounted } from 'vue'
 import { useEventListener, useTimeoutFn } from '@vueuse/core'
-import { EVENT_CODE } from '@element-plus/utils/aria'
-import { ElIcon } from '@element-plus/components/icon'
-import { TypeComponents, TypeComponentsMap } from '@element-plus/utils-v2'
-import { useNamespace } from '@element-plus/hooks'
+import { EVENT_CODE } from '@park-ui/utils/aria'
+import { ElIcon } from '@park-ui/components/icon'
+import { TypeComponents, TypeComponentsMap } from '@park-ui/utils-v2'
+import { useNamespace } from '@park-ui/hooks'
 import { notificationProps, notificationEmits } from './notification'
 
 import type { CSSProperties } from 'vue'

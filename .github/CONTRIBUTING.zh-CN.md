@@ -22,7 +22,7 @@ Element Plus 的成长离不开大家的支持，如果你愿意为 Element Plus
 
   1. type: 必须是 build, chore, ci, docs, feat, fix, perf, refactor, revert, release, style, test, improvement 其中的一个。
 
-  2. scope: 必须是 components, directives, element-plus, hooks, locale, test-utils, theme-chalk, tokens, utils, project, core, style, docs, ci, dev, build, deploy, other, typography, color, border, var 其中的一个。
+  2. scope: 必须是 components, directives, park-ui, hooks, locale, test-utils, theme-chalk, tokens, utils, project, core, style, docs, ci, dev, build, deploy, other, typography, color, border, var 其中的一个。
 
   3. header: 描述信息不要超过 72 个字符。
 

@@ -10,7 +10,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useLocale } from '@element-plus/hooks'
+import { useLocale } from '@park-ui/hooks'
 import { usePagination } from '../usePagination'
 import type { ExtractPropTypes } from 'vue'
 

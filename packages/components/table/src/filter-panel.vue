@@ -88,14 +88,14 @@
 
 <script lang="ts">
 import { defineComponent, ref, computed, getCurrentInstance, watch } from 'vue'
-import ElCheckbox from '@element-plus/components/checkbox'
-import { ElIcon } from '@element-plus/components/icon'
 import { ArrowDown, ArrowUp } from '@element-plus/icons-vue'
-import { ClickOutside } from '@element-plus/directives'
-import { useLocale, useNamespace } from '@element-plus/hooks'
-import ElTooltip from '@element-plus/components/tooltip'
-import ElScrollbar from '@element-plus/components/scrollbar'
-import type { Placement } from '@element-plus/components/popper'
+import ElCheckbox from '@park-ui/components/checkbox'
+import { ElIcon } from '@park-ui/components/icon'
+import { ClickOutside } from '@park-ui/directives'
+import { useLocale, useNamespace } from '@park-ui/hooks'
+import ElTooltip from '@park-ui/components/tooltip'
+import ElScrollbar from '@park-ui/components/scrollbar'
+import type { Placement } from '@park-ui/components/popper'
 
 import type { WritableComputedRef, PropType } from 'vue'
 import type { TableColumnCtx } from './table-column/defaults'

@@ -39,16 +39,16 @@
 import { computed, inject, defineComponent, Text, ref } from 'vue'
 import { useCssVar } from '@vueuse/core'
 import { TinyColor } from '@ctrl/tinycolor'
-import { ElIcon } from '@element-plus/components/icon'
+import { Loading } from '@element-plus/icons-vue'
+import { ElIcon } from '@park-ui/components/icon'
 import {
   useDisabled,
   useFormItem,
   useGlobalConfig,
   useNamespace,
   useSize,
-} from '@element-plus/hooks'
-import { buttonGroupContextKey } from '@element-plus/tokens'
-import { Loading } from '@element-plus/icons-vue'
+} from '@park-ui/hooks'
+import { buttonGroupContextKey } from '@park-ui/tokens'
 
 import { buttonEmits, buttonProps } from './button'
 

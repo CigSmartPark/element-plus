@@ -1,4 +1,4 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/slider.scss'
-import '@element-plus/components/input-number/style/index'
-import '@element-plus/components/tooltip/style/index'
+import '@park-ui/components/base/style'
+import '@park-ui/theme-chalk/src/slider.scss'
+import '@park-ui/components/input-number/style/index'
+import '@park-ui/components/tooltip/style/index'

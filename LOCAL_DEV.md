@@ -35,7 +35,7 @@ the project will launch website for you to preview all existing component
 
 ## Local development
 
-See [Local development guide](https://github.com/element-plus/element-plus/CONTRIBUTING.md)
+See [Local development guide](https://github.com/park-ui/park-ui/CONTRIBUTING.md)
 
 1. With command
 
@@ -55,8 +55,8 @@ will start the local development environment
 </template>
 
 <script setup lang="ts">
-// make sure this component is registered in @element-plus/components
-import { ComponentYouAreDeveloping } from '@element-plus/components'
+// make sure this component is registered in @park-ui/components
+import { ComponentYouAreDeveloping } from '@park-ui/components'
 </script>
 ```
 

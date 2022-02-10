@@ -33,12 +33,12 @@
 import { defineComponent, computed, ref } from 'vue'
 import dayjs from 'dayjs'
 import customParseFormat from 'dayjs/plugin/customParseFormat'
-import ElSelect from '@element-plus/components/select'
-import ElIcon from '@element-plus/components/icon'
 import { CircleClose, Clock } from '@element-plus/icons-vue'
+import ElSelect from '@park-ui/components/select'
+import ElIcon from '@park-ui/components/icon'
 
 import type { PropType, Component } from 'vue'
-import type { ComponentSize } from '@element-plus/constants'
+import type { ComponentSize } from '@park-ui/constants'
 dayjs.extend(customParseFormat)
 
 const { Option: ElOption } = ElSelect

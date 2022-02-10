@@ -1,4 +1,4 @@
-import { hasOwn } from '@element-plus/utils-v2'
+import { hasOwn } from '@park-ui/utils-v2'
 import type {
   ElUploadProgressEvent,
   ElUploadRequestOptions,

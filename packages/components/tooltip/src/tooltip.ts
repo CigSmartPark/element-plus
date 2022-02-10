@@ -1,12 +1,12 @@
-import { buildProps, definePropType } from '@element-plus/utils-v2'
+import { buildProps, definePropType } from '@park-ui/utils-v2'
 import {
   usePopperTriggerProps,
   usePopperContentProps,
-} from '@element-plus/components/popper'
+} from '@park-ui/components/popper'
 import {
   useDelayedToggleProps,
   POPPER_CONTAINER_SELECTOR,
-} from '@element-plus/hooks'
+} from '@park-ui/hooks'
 
 import type { ExtractPropTypes, PropType } from 'vue'
 

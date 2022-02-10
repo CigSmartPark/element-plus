@@ -1,5 +1,5 @@
 import { unref } from 'vue'
-import { isArray } from '@element-plus/utils-v2'
+import { isArray } from '@park-ui/utils-v2'
 import type { Ref } from 'vue'
 import type { Trigger } from './tooltip'
 

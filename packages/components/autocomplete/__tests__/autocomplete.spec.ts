@@ -1,7 +1,7 @@
 import { nextTick } from 'vue'
 import { mount } from '@vue/test-utils'
 import { NOOP } from '@vue/shared'
-import { POPPER_CONTAINER_SELECTOR } from '@element-plus/hooks'
+import { POPPER_CONTAINER_SELECTOR } from '@park-ui/hooks'
 import Autocomplete from '../src/index.vue'
 
 jest.unmock('lodash')

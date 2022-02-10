@@ -5,7 +5,7 @@
 </template>
 <script lang="ts">
 import { defineComponent, computed } from 'vue'
-import { useNamespace } from '@element-plus/hooks'
+import { useNamespace } from '@park-ui/hooks'
 
 import type { Component, VNode } from 'vue'
 

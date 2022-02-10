@@ -1,11 +1,7 @@
 import { nextTick } from 'vue'
 import { mount } from '@vue/test-utils'
 import { User } from '@element-plus/icons-vue'
-import {
-  IMAGE_SUCCESS,
-  IMAGE_FAIL,
-  mockImageEvent,
-} from '@element-plus/test-utils'
+import { IMAGE_SUCCESS, IMAGE_FAIL, mockImageEvent } from '@park-ui/test-utils'
 
 import Avatar from '../src/avatar.vue'
 

@@ -1,11 +1,11 @@
 import { nextTick } from 'vue'
 import { NOOP } from '@vue/shared'
-import { EVENT_CODE } from '@element-plus/utils/aria'
-import { makeMountFunc } from '@element-plus/test-utils/make-mount'
-import { rAF } from '@element-plus/test-utils/tick'
 import { CircleClose } from '@element-plus/icons-vue'
-import { hasClass } from '@element-plus/utils/dom'
-import { POPPER_CONTAINER_SELECTOR } from '@element-plus/hooks'
+import { EVENT_CODE } from '@park-ui/utils/aria'
+import { makeMountFunc } from '@park-ui/test-utils/make-mount'
+import { rAF } from '@park-ui/test-utils/tick'
+import { hasClass } from '@park-ui/utils/dom'
+import { POPPER_CONTAINER_SELECTOR } from '@park-ui/hooks'
 import Select from '../src/select.vue'
 
 jest.useFakeTimers()

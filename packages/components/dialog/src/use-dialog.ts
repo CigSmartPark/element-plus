@@ -6,9 +6,9 @@ import {
   useRestoreActive,
   useModal,
   useZIndex,
-} from '@element-plus/hooks'
-import { UPDATE_MODEL_EVENT } from '@element-plus/constants'
-import { isNumber } from '@element-plus/utils-v2'
+} from '@park-ui/hooks'
+import { UPDATE_MODEL_EVENT } from '@park-ui/constants'
+import { isNumber } from '@park-ui/utils-v2'
 
 import type { CSSProperties, Ref, SetupContext } from 'vue'
 import type { DialogEmits, DialogProps } from './dialog'

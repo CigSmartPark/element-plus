@@ -1,8 +1,8 @@
 import { createVNode, render } from 'vue'
 import { isClient } from '@vueuse/core'
-import { isVNode, isNumber, debugWarn } from '@element-plus/utils-v2'
-import { useZIndex } from '@element-plus/hooks'
-import { messageConfig } from '@element-plus/components/config-provider/src/config-provider'
+import { isVNode, isNumber, debugWarn } from '@park-ui/utils-v2'
+import { useZIndex } from '@park-ui/hooks'
+import { messageConfig } from '@park-ui/components/config-provider/src/config-provider'
 import MessageConstructor from './message.vue'
 import { messageTypes } from './message'
 

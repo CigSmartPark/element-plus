@@ -1,6 +1,6 @@
 import { nextTick } from 'vue'
 import { mount } from '@vue/test-utils'
-import ElTag from '@element-plus/components/tag'
+import ElTag from '@park-ui/components/tag'
 import Descriptions from '../src/index.vue'
 import DescriptionsItem from '../src/description-item'
 

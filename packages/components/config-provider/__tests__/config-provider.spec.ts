@@ -1,12 +1,12 @@
 import { h, ref, reactive, nextTick } from 'vue'
 import { mount } from '@vue/test-utils'
-import { useLocale } from '@element-plus/hooks'
-import Chinese from '@element-plus/locale/lang/zh-cn'
-import English from '@element-plus/locale/lang/en'
-import { ElButton, ElMessage } from '@element-plus/components'
-import { rAF } from '@element-plus/test-utils/tick'
+import { useLocale } from '@park-ui/hooks'
+import Chinese from '@park-ui/locale/lang/zh-cn'
+import English from '@park-ui/locale/lang/en'
+import { ElButton, ElMessage } from '@park-ui/components'
+import { rAF } from '@park-ui/test-utils/tick'
 import ConfigProvider from '../src/config-provider'
-import type { Language } from '@element-plus/locale'
+import type { Language } from '@park-ui/locale'
 
 jest.useFakeTimers()
 

@@ -1,4 +1,4 @@
-import { withInstall, withNoopInstall } from '@element-plus/utils-v2'
+import { withInstall, withNoopInstall } from '@park-ui/utils-v2'
 
 import Checkbox from './src/checkbox.vue'
 import CheckboxButton from './src/checkbox-button.vue'

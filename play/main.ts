@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './src/App.vue'
 
-import '@element-plus/theme-chalk/src/index.scss'
+import '@park-ui/theme-chalk/src/index.scss'
 
 const app = createApp(App)
 

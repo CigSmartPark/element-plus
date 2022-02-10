@@ -1,6 +1,6 @@
 import { createVNode, defineComponent, renderSlot, h } from 'vue'
-import { PatchFlags, buildProps, definePropType } from '@element-plus/utils-v2'
-import { useNamespace, useSameTarget } from '@element-plus/hooks'
+import { PatchFlags, buildProps, definePropType } from '@park-ui/utils-v2'
+import { useNamespace, useSameTarget } from '@park-ui/hooks'
 
 import type { ExtractPropTypes, CSSProperties } from 'vue'
 import type { ZIndexProperty } from 'csstype'

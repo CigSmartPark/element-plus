@@ -23,11 +23,11 @@ export default defineConfig(async () => {
     resolve: {
       alias: [
         {
-          find: /^element-plus(\/(es|lib))?$/,
+          find: /^park-ui(\/(es|lib))?$/,
           replacement: path.resolve(epRoot, 'index.ts'),
         },
         {
-          find: /^element-plus\/(es|lib)\/(.*)$/,
+          find: /^park-ui\/(es|lib)\/(.*)$/,
           replacement: `${pkgRoot}/$2`,
         },
       ],

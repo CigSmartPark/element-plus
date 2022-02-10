@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useNamespace } from '@element-plus/hooks'
+import { useNamespace } from '@park-ui/hooks'
 import ImgPlaceholder from './image-placeholder.vue'
 import { skeletonItemProps } from './skeleton-item'
 

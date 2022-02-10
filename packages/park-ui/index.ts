@@ -1,8 +1,8 @@
 import installer from './defaults'
-export * from '@element-plus/components'
-export * from '@element-plus/directives'
-export * from '@element-plus/hooks'
-export * from '@element-plus/tokens'
+export * from '@park-ui/components'
+export * from '@park-ui/directives'
+export * from '@park-ui/hooks'
+export * from '@park-ui/tokens'
 export { makeInstaller } from './make-installer'
 
 export const install = installer.install

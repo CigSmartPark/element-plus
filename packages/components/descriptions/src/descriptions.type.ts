@@ -1,4 +1,4 @@
-import type { ComponentSize } from '@element-plus/constants'
+import type { ComponentSize } from '@park-ui/constants'
 
 export interface IDescriptionsInject {
   border: boolean

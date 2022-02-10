@@ -1,4 +1,4 @@
-import { buildProps, definePropType } from '@element-plus/utils-v2'
+import { buildProps, definePropType } from '@park-ui/utils-v2'
 
 import type { VNode, ExtractPropTypes } from 'vue'
 

@@ -26,7 +26,7 @@
 </template>
 <script lang="ts">
 import { computed, defineComponent } from 'vue'
-import { useNamespace } from '@element-plus/hooks'
+import { useNamespace } from '@park-ui/hooks'
 import { resultProps, IconComponentMap, IconMap } from './result'
 
 export default defineComponent({

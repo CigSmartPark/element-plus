@@ -7,14 +7,14 @@ import {
   getCurrentInstance,
   watch,
 } from 'vue'
-import { useLocale } from '@element-plus/hooks'
+import { useLocale } from '@park-ui/hooks'
 import {
   debugWarn,
   buildProps,
   definePropType,
   mutable,
-} from '@element-plus/utils-v2'
-import { elPaginationKey } from '@element-plus/tokens'
+} from '@park-ui/utils-v2'
+import { elPaginationKey } from '@park-ui/tokens'
 
 import Prev from './components/prev.vue'
 import Next from './components/next.vue'

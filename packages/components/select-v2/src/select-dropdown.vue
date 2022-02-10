@@ -10,19 +10,19 @@ import {
   withKeys,
   withModifiers,
 } from 'vue'
-import { isUndefined, isObject } from '@element-plus/utils-v2'
-import { getValueByPath } from '@element-plus/utils/util'
-// import { addResizeListener, removeResizeListener, ResizableElement } from '@element-plus/utils/resize-event'
+import { isUndefined, isObject } from '@park-ui/utils-v2'
+import { getValueByPath } from '@park-ui/utils/util'
+// import { addResizeListener, removeResizeListener, ResizableElement } from '@park-ui/utils/resize-event'
 import {
   FixedSizeList,
   DynamicSizeList,
-} from '@element-plus/components/virtual-list'
+} from '@park-ui/components/virtual-list'
 import GroupItem from './group-item.vue'
 import OptionItem from './option-item.vue'
 
 import { selectV2InjectionKey } from './token'
 
-import type { ItemProps } from '@element-plus/components/virtual-list'
+import type { ItemProps } from '@park-ui/components/virtual-list'
 import type { OptionItemProps, Option } from './select.types'
 
 export default defineComponent({

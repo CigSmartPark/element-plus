@@ -1,4 +1,4 @@
-import '@element-plus/components/base/style/css'
-import '@element-plus/theme-chalk/el-dropdown.css'
-import '@element-plus/components/button/style/css'
-import '@element-plus/components/popper/style/css'
+import '@park-ui/components/base/style/css'
+import '@park-ui/theme-chalk/el-dropdown.css'
+import '@park-ui/components/button/style/css'
+import '@park-ui/components/popper/style/css'

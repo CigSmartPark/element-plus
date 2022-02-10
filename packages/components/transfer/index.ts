@@ -1,7 +1,7 @@
 import Transfer from './src/index.vue'
 
 import type { App } from 'vue'
-import type { SFCWithInstall } from '@element-plus/utils-v2'
+import type { SFCWithInstall } from '@park-ui/utils-v2'
 
 Transfer.install = (app: App): void => {
   app.component(Transfer.name, Transfer)

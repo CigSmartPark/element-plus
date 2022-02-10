@@ -1,7 +1,7 @@
 import TimeSelect from './src/time-select.vue'
 
 import type { App } from 'vue'
-import type { SFCWithInstall } from '@element-plus/utils-v2'
+import type { SFCWithInstall } from '@park-ui/utils-v2'
 
 TimeSelect.install = (app: App): void => {
   app.component(TimeSelect.name, TimeSelect)

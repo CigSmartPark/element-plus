@@ -11,17 +11,17 @@ import {
   reactive,
   nextTick,
 } from 'vue'
-import { Resize } from '@element-plus/directives'
-import ElIcon from '@element-plus/components/icon'
 import { More } from '@element-plus/icons-vue'
-import Menubar from '@element-plus/utils/menu/menu-bar'
+import { Resize } from '@park-ui/directives'
+import ElIcon from '@park-ui/components/icon'
+import Menubar from '@park-ui/utils/menu/menu-bar'
 import {
   buildProps,
   definePropType,
   mutable,
   isString,
   isObject,
-} from '@element-plus/utils-v2'
+} from '@park-ui/utils-v2'
 import ElMenuCollapseTransition from './menu-collapse-transition.vue'
 import ElSubMenu from './sub-menu'
 import { useMenuCssVar } from './use-menu-css-var'

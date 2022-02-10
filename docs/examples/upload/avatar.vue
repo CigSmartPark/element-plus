@@ -14,7 +14,7 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 import { ElMessage } from 'element-plus'
-import { Plus } from '@element-plus/icons-vue'
+import { Plus } from '@element-plus-plus/icons-vue'
 import type {
   UploadFile,
   ElUploadProgressEvent,

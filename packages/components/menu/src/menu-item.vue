@@ -56,9 +56,9 @@ import {
   toRef,
   reactive,
 } from 'vue'
-import ElTooltip from '@element-plus/components/tooltip'
-import { Effect } from '@element-plus/components/popper'
-import { throwError } from '@element-plus/utils-v2'
+import ElTooltip from '@park-ui/components/tooltip'
+import { Effect } from '@park-ui/components/popper'
+import { throwError } from '@park-ui/utils-v2'
 import useMenu from './use-menu'
 import { menuItemEmits, menuItemProps } from './menu-item'
 

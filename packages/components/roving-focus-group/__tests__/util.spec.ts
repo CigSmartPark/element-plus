@@ -1,4 +1,4 @@
-import { EVENT_CODE } from '@element-plus/utils/aria'
+import { EVENT_CODE } from '@park-ui/utils/aria'
 import * as Util from '../src/utils'
 
 describe('util', () => {

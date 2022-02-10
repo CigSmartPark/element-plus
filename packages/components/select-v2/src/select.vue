@@ -253,11 +253,11 @@
 
 <script lang="ts">
 import { defineComponent, provide, toRefs, reactive, vModelText } from 'vue'
-import { ClickOutside } from '@element-plus/directives'
-import ElTooltip from '@element-plus/components/tooltip'
-import ElTag from '@element-plus/components/tag'
-import ElIcon from '@element-plus/components/icon'
-import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '@element-plus/constants'
+import { ClickOutside } from '@park-ui/directives'
+import ElTooltip from '@park-ui/components/tooltip'
+import ElTag from '@park-ui/components/tag'
+import ElIcon from '@park-ui/components/icon'
+import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '@park-ui/constants'
 import ElSelectMenu from './select-dropdown.vue'
 import useSelect from './useSelect'
 import { selectV2InjectionKey } from './token'

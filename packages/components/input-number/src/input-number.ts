@@ -1,5 +1,5 @@
-import { buildProps, isNumber } from '@element-plus/utils-v2'
-import { componentSizes } from '@element-plus/constants'
+import { buildProps, isNumber } from '@park-ui/utils-v2'
+import { componentSizes } from '@park-ui/constants'
 
 export const inputNumberProps = buildProps({
   step: {

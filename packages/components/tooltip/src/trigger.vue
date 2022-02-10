@@ -19,14 +19,14 @@
 
 <script lang="ts">
 import { defineComponent, inject, ref, unref, toRef } from 'vue'
-import { ElPopperTrigger } from '@element-plus/components/popper'
-import { EVENT_CODE } from '@element-plus/utils/aria'
-import { composeEventHandlers } from '@element-plus/utils/dom'
+import { ElPopperTrigger } from '@park-ui/components/popper'
+import { EVENT_CODE } from '@park-ui/utils/aria'
+import { composeEventHandlers } from '@park-ui/utils/dom'
 import { TOOLTIP_INJECTION_KEY } from './tokens'
 import { useTooltipTriggerProps } from './tooltip'
 import { whenTrigger } from './utils'
 
-import type { ElOnlyChildExpose } from '@element-plus/components/slot'
+import type { ElOnlyChildExpose } from '@park-ui/components/slot'
 
 export default defineComponent({
   name: 'ElTooltipTrigger',

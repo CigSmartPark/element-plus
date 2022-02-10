@@ -75,15 +75,15 @@ import {
   nextTick,
 } from 'vue'
 import { throttle } from 'lodash-unified'
+import { ArrowLeft, ArrowRight } from '@element-plus/icons-vue'
 import {
   addResizeListener,
   removeResizeListener,
-} from '@element-plus/utils/resize-event'
-import { ElIcon } from '@element-plus/components/icon'
-import { ArrowLeft, ArrowRight } from '@element-plus/icons-vue'
-import { useNamespace } from '@element-plus/hooks'
+} from '@park-ui/utils/resize-event'
+import { ElIcon } from '@park-ui/components/icon'
+import { useNamespace } from '@park-ui/hooks'
 
-import { debugWarn } from '@element-plus/utils-v2'
+import { debugWarn } from '@park-ui/utils-v2'
 import type {
   ICarouselProps,
   CarouselItem,

@@ -38,8 +38,8 @@
 
 <script lang="ts">
 import { defineComponent, reactive, toRefs } from 'vue'
-import ElTooltip from '@element-plus/components/tooltip'
-import { UPDATE_MODEL_EVENT } from '@element-plus/constants'
+import ElTooltip from '@park-ui/components/tooltip'
+import { UPDATE_MODEL_EVENT } from '@park-ui/constants'
 import { useSliderButton } from './useSliderButton'
 
 export default defineComponent({

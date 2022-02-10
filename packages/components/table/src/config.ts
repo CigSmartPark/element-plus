@@ -1,8 +1,8 @@
 import { h } from 'vue'
-import ElCheckbox from '@element-plus/components/checkbox'
-import { ElIcon } from '@element-plus/components/icon'
 import { ArrowRight, Loading } from '@element-plus/icons-vue'
-import { getPropByPath } from '@element-plus/utils/util'
+import ElCheckbox from '@park-ui/components/checkbox'
+import { ElIcon } from '@park-ui/components/icon'
+import { getPropByPath } from '@park-ui/utils/util'
 
 import type { VNode } from 'vue'
 import type { TableColumnCtx } from './table-column/defaults'

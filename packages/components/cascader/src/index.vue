@@ -168,40 +168,38 @@ import { isPromise } from '@vue/shared'
 import { debounce } from 'lodash-unified'
 
 import { isClient } from '@vueuse/core'
+import { CircleClose, Check, ArrowDown } from '@element-plus/icons-vue'
 import ElCascaderPanel, {
   CommonProps,
-} from '@element-plus/components/cascader-panel'
-import ElInput from '@element-plus/components/input'
-import ElTooltip, {
-  useTooltipContentProps,
-} from '@element-plus/components/tooltip'
-import { useDeprecateAppendToBody } from '@element-plus/components/popper'
-import ElScrollbar from '@element-plus/components/scrollbar'
-import ElTag from '@element-plus/components/tag'
-import ElIcon from '@element-plus/components/icon'
+} from '@park-ui/components/cascader-panel'
+import ElInput from '@park-ui/components/input'
+import ElTooltip, { useTooltipContentProps } from '@park-ui/components/tooltip'
+import { useDeprecateAppendToBody } from '@park-ui/components/popper'
+import ElScrollbar from '@park-ui/components/scrollbar'
+import ElTag from '@park-ui/components/tag'
+import ElIcon from '@park-ui/components/icon'
 
-import { elFormKey, elFormItemKey } from '@element-plus/tokens'
-import { ClickOutside as Clickoutside } from '@element-plus/directives'
-import { useLocale, useSize } from '@element-plus/hooks'
+import { elFormKey, elFormItemKey } from '@park-ui/tokens'
+import { ClickOutside as Clickoutside } from '@park-ui/directives'
+import { useLocale, useSize } from '@park-ui/hooks'
 
-import { EVENT_CODE, focusNode, getSibling } from '@element-plus/utils/aria'
-import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '@element-plus/constants'
+import { EVENT_CODE, focusNode, getSibling } from '@park-ui/utils/aria'
+import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '@park-ui/constants'
 import {
   addResizeListener,
   removeResizeListener,
-} from '@element-plus/utils/resize-event'
-import { isValidComponentSize, isKorean } from '@element-plus/utils-v2'
-import { CircleClose, Check, ArrowDown } from '@element-plus/icons-vue'
+} from '@park-ui/utils/resize-event'
+import { isValidComponentSize, isKorean } from '@park-ui/utils-v2'
 
-import type { Options } from '@element-plus/components/popper'
+import type { Options } from '@park-ui/components/popper'
 import type { ComputedRef, PropType, Ref } from 'vue'
-import type { ElFormContext, ElFormItemContext } from '@element-plus/tokens'
+import type { ElFormContext, ElFormItemContext } from '@park-ui/tokens'
 import type {
   CascaderValue,
   CascaderNode,
   Tag,
-} from '@element-plus/components/cascader-panel'
-import type { ComponentSize } from '@element-plus/constants'
+} from '@park-ui/components/cascader-panel'
+import type { ComponentSize } from '@park-ui/constants'
 
 type cascaderPanelType = InstanceType<typeof ElCascaderPanel>
 type tooltipType = InstanceType<typeof ElTooltip>

@@ -1,4 +1,4 @@
-import { withInstall, withNoopInstall } from '@element-plus/utils-v2'
+import { withInstall, withNoopInstall } from '@park-ui/utils-v2'
 
 import Menu from './src/menu'
 import MenuItem from './src/menu-item.vue'

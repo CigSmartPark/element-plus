@@ -11,9 +11,9 @@
 
 <script lang="ts">
 import { defineComponent, provide, ref, onMounted } from 'vue'
-import { elBreadcrumbKey } from '@element-plus/tokens'
+import { elBreadcrumbKey } from '@park-ui/tokens'
 
-import { useNamespace } from '@element-plus/hooks'
+import { useNamespace } from '@park-ui/hooks'
 import { breadcrumbProps } from './breadcrumb'
 
 export default defineComponent({

@@ -11,8 +11,8 @@ import {
   unref,
   watch,
 } from 'vue'
-import { EVENT_CODE } from '@element-plus/utils/aria'
-import { on, off } from '@element-plus/utils/dom'
+import { EVENT_CODE } from '@park-ui/utils/aria'
+import { on, off } from '@park-ui/utils/dom'
 import {
   focusableStack,
   focusFirstDescendant,

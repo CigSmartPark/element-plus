@@ -51,8 +51,8 @@
 <script lang="ts">
 import { computed, defineComponent, inject } from 'vue'
 import { CaretRight } from '@element-plus/icons-vue'
-import ElIcon from '@element-plus/components/icon'
-import ElCheckbox from '@element-plus/components/checkbox'
+import ElIcon from '@park-ui/components/icon'
+import ElCheckbox from '@park-ui/components/checkbox'
 import ElNodeContent from './tree-node-content'
 import {
   ROOT_TREE_INJECTION_KEY,

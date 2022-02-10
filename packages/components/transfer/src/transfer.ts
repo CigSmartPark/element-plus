@@ -1,4 +1,4 @@
-import { CHANGE_EVENT } from '@element-plus/constants'
+import { CHANGE_EVENT } from '@park-ui/constants'
 
 import type { VNode } from 'vue'
 

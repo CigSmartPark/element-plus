@@ -1,7 +1,7 @@
-import { provideGlobalConfig } from '@element-plus/hooks'
+import { provideGlobalConfig } from '@park-ui/hooks'
 import { version } from './version'
 import type { App, Plugin } from 'vue'
-import type { ConfigProviderContext } from '@element-plus/tokens'
+import type { ConfigProviderContext } from '@park-ui/tokens'
 
 const INSTALLED_KEY = Symbol('INSTALLED_KEY')
 

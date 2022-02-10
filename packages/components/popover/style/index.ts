@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/popover.scss'
-import '@element-plus/components/popper/style/index'
+import '@park-ui/components/base/style'
+import '@park-ui/theme-chalk/src/popover.scss'
+import '@park-ui/components/popper/style/index'

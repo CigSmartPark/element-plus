@@ -13,8 +13,8 @@
 
 <script lang="ts">
 import { defineComponent, computed } from 'vue'
-import { ElIcon } from '@element-plus/components/icon'
 import { ArrowRight } from '@element-plus/icons-vue'
+import { ElIcon } from '@park-ui/components/icon'
 
 const paginationNextProps = {
   disabled: Boolean,

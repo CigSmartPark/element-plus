@@ -1,4 +1,4 @@
-import { withInstall } from '@element-plus/utils-v2'
+import { withInstall } from '@park-ui/utils-v2'
 import Popper from './src/popper.vue'
 
 export { default as ElPopperArrow } from './src/arrow.vue'

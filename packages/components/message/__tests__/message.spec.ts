@@ -1,8 +1,8 @@
 import { h, nextTick } from 'vue'
-import makeMount from '@element-plus/test-utils/make-mount'
-import { rAF } from '@element-plus/test-utils/tick'
-import { EVENT_CODE } from '@element-plus/utils/aria'
-import { TypeComponentsMap } from '@element-plus/utils-v2'
+import makeMount from '@park-ui/test-utils/make-mount'
+import { rAF } from '@park-ui/test-utils/tick'
+import { EVENT_CODE } from '@park-ui/utils/aria'
+import { TypeComponentsMap } from '@park-ui/utils-v2'
 import Message from '../src/message.vue'
 import type { ComponentPublicInstance, CSSProperties, Component } from 'vue'
 

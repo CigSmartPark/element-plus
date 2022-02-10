@@ -1,6 +1,6 @@
 import type { ComputedRef } from 'vue'
-import type { ComponentSize } from '@element-plus/constants'
-import type { AnyFunction } from '@element-plus/utils/types'
+import type { ComponentSize } from '@park-ui/constants'
+import type { AnyFunction } from '@park-ui/utils/types'
 export interface ICheckboxGroupInstance {
   name?: string
   modelValue?: ComputedRef

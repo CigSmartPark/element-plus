@@ -66,17 +66,12 @@ import {
   onUpdated,
 } from 'vue'
 
-import { ElIcon } from '@element-plus/components/icon'
-import { RepeatClick } from '@element-plus/directives'
-import {
-  useDisabled,
-  useFormItem,
-  useSize,
-  useNamespace,
-} from '@element-plus/hooks'
-import ElInput from '@element-plus/components/input'
-import { isNumber, debugWarn } from '@element-plus/utils-v2'
 import { ArrowUp, ArrowDown, Plus, Minus } from '@element-plus/icons-vue'
+import { ElIcon } from '@park-ui/components/icon'
+import { RepeatClick } from '@park-ui/directives'
+import { useDisabled, useFormItem, useSize, useNamespace } from '@park-ui/hooks'
+import ElInput from '@park-ui/components/input'
+import { isNumber, debugWarn } from '@park-ui/utils-v2'
 import { inputNumberProps, inputNumberEmits } from './input-number'
 
 import type { ComponentPublicInstance } from 'vue'

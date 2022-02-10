@@ -5,8 +5,8 @@
 </template>
 <script lang="ts">
 import { defineComponent, provide, reactive, toRef } from 'vue'
-import { buttonGroupContextKey } from '@element-plus/tokens'
-import { useNamespace } from '@element-plus/hooks'
+import { buttonGroupContextKey } from '@park-ui/tokens'
+import { useNamespace } from '@park-ui/hooks'
 import { buttonGroupProps } from './button-group'
 
 export default defineComponent({

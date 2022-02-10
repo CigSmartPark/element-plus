@@ -1,14 +1,14 @@
 import { inject, ref, computed, unref, provide, getCurrentInstance } from 'vue'
-import { configProviderContextKey } from '@element-plus/tokens'
-import { debugWarn } from '@element-plus/utils-v2'
-import { merge } from '@element-plus/utils/util'
+import { configProviderContextKey } from '@park-ui/tokens'
+import { debugWarn } from '@park-ui/utils-v2'
+import { merge } from '@park-ui/utils/util'
 import type { MaybeRef } from '@vueuse/core'
 import type { Ref, App } from 'vue'
-import type { ConfigProviderContext } from '@element-plus/tokens'
+import type { ConfigProviderContext } from '@park-ui/tokens'
 
 // this is meant to fix global methods like `ElMessage(opts)`, this way we can inject current locale
 // into the component as default injection value.
-// refer to: https://github.com/element-plus/element-plus/issues/2610#issuecomment-887965266
+// refer to: https://github.com/park-ui/park-ui/issues/2610#issuecomment-887965266
 const globalConfig = ref<ConfigProviderContext>()
 
 export function useGlobalConfig<

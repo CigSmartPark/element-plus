@@ -1,10 +1,10 @@
 import { ref, unref, inject, computed } from 'vue'
-import { elFormItemKey, elFormKey } from '@element-plus/tokens'
-import { buildProp } from '@element-plus/utils-v2'
-import { componentSizes } from '@element-plus/constants'
+import { elFormItemKey, elFormKey } from '@park-ui/tokens'
+import { buildProp } from '@park-ui/utils-v2'
+import { componentSizes } from '@park-ui/constants'
 import { useProp } from '../use-prop'
 import { useGlobalConfig } from '../use-global-config'
-import type { ComponentSize } from '@element-plus/constants'
+import type { ComponentSize } from '@park-ui/constants'
 import type { MaybeRef } from '@vueuse/core'
 
 export const useSizeProp = buildProp({

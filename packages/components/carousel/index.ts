@@ -1,4 +1,4 @@
-import { withInstall, withNoopInstall } from '@element-plus/utils-v2'
+import { withInstall, withNoopInstall } from '@park-ui/utils-v2'
 import Carousel from './src/main.vue'
 import CarouselItem from './src/item.vue'
 

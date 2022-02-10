@@ -14,8 +14,8 @@ import {
   definePropType,
   isArray,
   isNumber,
-} from '@element-plus/utils-v2'
-import { componentSizes } from '@element-plus/constants'
+} from '@park-ui/utils-v2'
+import { componentSizes } from '@park-ui/constants'
 import Item from './item.vue'
 import { useSpace } from './use-space'
 

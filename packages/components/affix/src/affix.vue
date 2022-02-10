@@ -15,8 +15,8 @@ import {
   watch,
 } from 'vue'
 import { useEventListener, useResizeObserver } from '@vueuse/core'
-import { getScrollContainer } from '@element-plus/utils/dom'
-import { useNamespace } from '@element-plus/hooks'
+import { getScrollContainer } from '@park-ui/utils/dom'
+import { useNamespace } from '@park-ui/hooks'
 import { affixEmits, affixProps } from './affix'
 
 import type { CSSProperties } from 'vue'

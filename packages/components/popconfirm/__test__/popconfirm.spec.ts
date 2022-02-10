@@ -1,7 +1,7 @@
 import { h, nextTick } from 'vue'
 import { mount } from '@vue/test-utils'
-import { rAF } from '@element-plus/test-utils/tick'
-import { POPPER_CONTAINER_SELECTOR } from '@element-plus/hooks'
+import { rAF } from '@park-ui/test-utils/tick'
+import { POPPER_CONTAINER_SELECTOR } from '@park-ui/hooks'
 import ElPopconfirm from '../src/popconfirm.vue'
 
 const AXIOM = 'rem is the best girl'

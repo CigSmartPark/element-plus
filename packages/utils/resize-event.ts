@@ -1,6 +1,6 @@
 import { isClient } from '@vueuse/core'
 
-import type { HTMLElementCustomized } from '@element-plus/utils-v2'
+import type { HTMLElementCustomized } from '@park-ui/utils-v2'
 
 export type ResizableElement = HTMLElementCustomized<{
   __resizeListeners__?: Array<(...args: unknown[]) => unknown>

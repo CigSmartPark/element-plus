@@ -1,6 +1,6 @@
 import { extend, hasOwn, isFunction, looseEqual } from '@vue/shared'
 import { isEqualWith } from 'lodash-unified'
-import { isNumber, throwError } from '@element-plus/utils-v2'
+import { isNumber, throwError } from '@park-ui/utils-v2'
 import type { ComponentPublicInstance, CSSProperties, Ref } from 'vue'
 import type { Nullable } from './types'
 

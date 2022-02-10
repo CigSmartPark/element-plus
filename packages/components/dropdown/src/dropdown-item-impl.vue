@@ -31,11 +31,11 @@ import { defineComponent, inject } from 'vue'
 import {
   ROVING_FOCUS_GROUP_ITEM_INJECTION_KEY,
   ROVING_FOCUS_ITEM_COLLECTION_INJECTION_KEY,
-} from '@element-plus/components/roving-focus-group'
-import { COLLECTION_ITEM_SIGN } from '@element-plus/components/collection'
-import { ElIcon } from '@element-plus/components/icon'
-import { EVENT_CODE } from '@element-plus/utils/aria'
-import { composeEventHandlers, composeRefs } from '@element-plus/utils/dom'
+} from '@park-ui/components/roving-focus-group'
+import { COLLECTION_ITEM_SIGN } from '@park-ui/components/collection'
+import { ElIcon } from '@park-ui/components/icon'
+import { EVENT_CODE } from '@park-ui/utils/aria'
+import { composeEventHandlers, composeRefs } from '@park-ui/utils/dom'
 import {
   DROPDOWN_COLLECTION_ITEM_INJECTION_KEY,
   dropdownItemProps,

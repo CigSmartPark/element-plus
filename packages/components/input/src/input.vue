@@ -146,21 +146,17 @@ import {
   onUpdated,
 } from 'vue'
 import { isClient } from '@vueuse/core'
-import { ElIcon } from '@element-plus/components/icon'
 import { CircleClose, View as IconView } from '@element-plus/icons-vue'
-import {
-  ValidateComponentsMap,
-  isObject,
-  isKorean,
-} from '@element-plus/utils-v2'
+import { ElIcon } from '@park-ui/components/icon'
+import { ValidateComponentsMap, isObject, isKorean } from '@park-ui/utils-v2'
 import {
   useAttrs,
   useDisabled,
   useFormItem,
   useSize,
   useNamespace,
-} from '@element-plus/hooks'
-import { UPDATE_MODEL_EVENT } from '@element-plus/constants'
+} from '@park-ui/hooks'
+import { UPDATE_MODEL_EVENT } from '@park-ui/constants'
 import { calcTextareaHeight } from './calc-textarea-height'
 import { inputProps, inputEmits } from './input'
 

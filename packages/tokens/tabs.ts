@@ -1,4 +1,4 @@
-import type { TabsProps, TabPaneProps } from '@element-plus/components/tabs'
+import type { TabsProps, TabPaneProps } from '@park-ui/components/tabs'
 import type {
   ComponentInternalInstance,
   ComputedRef,

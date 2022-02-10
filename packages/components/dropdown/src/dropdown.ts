@@ -1,20 +1,16 @@
-import { EVENT_CODE } from '@element-plus/utils/aria'
-import {
-  buildProps,
-  definePropType,
-  iconPropType,
-} from '@element-plus/utils-v2'
-import { createCollectionWithScope } from '@element-plus/components/collection'
+import { EVENT_CODE } from '@park-ui/utils/aria'
+import { buildProps, definePropType, iconPropType } from '@park-ui/utils-v2'
+import { createCollectionWithScope } from '@park-ui/components/collection'
 import {
   useTooltipTriggerProps,
   useTooltipContentProps,
-} from '@element-plus/components/tooltip'
+} from '@park-ui/components/tooltip'
 import type { Options } from '@popperjs/core'
 
-import type { ButtonType } from '@element-plus/components/button'
-import type { Placement } from '@element-plus/components/popper'
+import type { ButtonType } from '@park-ui/components/button'
+import type { Placement } from '@park-ui/components/popper'
 import type { ComponentInternalInstance, ComputedRef } from 'vue'
-import type { Nullable } from '@element-plus/utils/types'
+import type { Nullable } from '@park-ui/utils/types'
 
 export interface IElDropdownInstance {
   instance?: ComponentInternalInstance

@@ -1,4 +1,4 @@
-import { withInstall, withNoopInstall } from '@element-plus/utils-v2'
+import { withInstall, withNoopInstall } from '@park-ui/utils-v2'
 
 import Steps from './src/index.vue'
 import Step from './src/item.vue'

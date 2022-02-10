@@ -1,9 +1,9 @@
 import { nextTick } from 'vue'
 import { mount } from '@vue/test-utils'
-import { EVENT_CODE } from '@element-plus/utils/aria'
-import { triggerEvent } from '@element-plus/test-utils'
 import { ArrowDown, Check, CircleClose } from '@element-plus/icons-vue'
-import { POPPER_CONTAINER_SELECTOR } from '@element-plus/hooks'
+import { EVENT_CODE } from '@park-ui/utils/aria'
+import { triggerEvent } from '@park-ui/test-utils'
+import { POPPER_CONTAINER_SELECTOR } from '@park-ui/hooks'
 import Cascader from '../src/index.vue'
 
 const OPTIONS = [

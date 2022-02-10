@@ -1,6 +1,6 @@
 import { nextTick } from 'vue'
 import { mount } from '@vue/test-utils'
-import { rAF } from '@element-plus/test-utils/tick'
+import { rAF } from '@park-ui/test-utils/tick'
 
 import Menu from '../src/menu'
 import MenuGroup from '../src/menu-item-group.vue'

@@ -1,4 +1,4 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/table-column.scss'
-import '@element-plus/components/checkbox/style/index'
-import '@element-plus/components/tag/style/index'
+import '@park-ui/components/base/style'
+import '@park-ui/theme-chalk/src/table-column.scss'
+import '@park-ui/components/checkbox/style/index'
+import '@park-ui/components/tag/style/index'

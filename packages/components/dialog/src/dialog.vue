@@ -70,11 +70,11 @@
 
 <script lang="ts">
 import { computed, defineComponent, ref } from 'vue'
-import { TrapFocus } from '@element-plus/directives'
-import { ElOverlay } from '@element-plus/components/overlay'
-import { ElIcon } from '@element-plus/components/icon'
-import { CloseComponents } from '@element-plus/utils-v2'
-import { useNamespace, useDraggable, useSameTarget } from '@element-plus/hooks'
+import { TrapFocus } from '@park-ui/directives'
+import { ElOverlay } from '@park-ui/components/overlay'
+import { ElIcon } from '@park-ui/components/icon'
+import { CloseComponents } from '@park-ui/utils-v2'
+import { useNamespace, useDraggable, useSameTarget } from '@park-ui/hooks'
 import { dialogProps, dialogEmits } from './dialog'
 import { useDialog } from './use-dialog'
 

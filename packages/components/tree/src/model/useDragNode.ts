@@ -1,5 +1,5 @@
 import { provide, ref } from 'vue'
-import { addClass, removeClass } from '@element-plus/utils/dom'
+import { addClass, removeClass } from '@park-ui/utils/dom'
 import type { InjectionKey } from 'vue'
 import type Node from './node'
 

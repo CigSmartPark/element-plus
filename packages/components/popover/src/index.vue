@@ -28,9 +28,9 @@
 </template>
 <script lang="ts">
 import { defineComponent, computed, ref, unref } from 'vue'
-import ElTooltip from '@element-plus/components/tooltip'
-import { useDeprecateAppendToBody } from '@element-plus/components/popper'
-import { isString } from '@element-plus/utils-v2'
+import ElTooltip from '@park-ui/components/tooltip'
+import { useDeprecateAppendToBody } from '@park-ui/components/popper'
+import { isString } from '@park-ui/utils-v2'
 import { usePopoverProps } from './popover'
 
 import type { StyleValue } from 'vue'

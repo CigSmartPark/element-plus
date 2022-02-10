@@ -31,9 +31,9 @@ import {
   getCurrentInstance,
   onUnmounted,
 } from 'vue'
-import { autoprefixer } from '@element-plus/utils/util'
-import { debugWarn } from '@element-plus/utils-v2'
-import { useNamespace } from '@element-plus/hooks'
+import { autoprefixer } from '@park-ui/utils/util'
+import { debugWarn } from '@park-ui/utils-v2'
+import { useNamespace } from '@park-ui/hooks'
 import type { CSSProperties } from 'vue'
 import type { InjectCarouselScope, ICarouselItemProps } from './carousel'
 
